@@ -1,0 +1,42 @@
+{
+  "nome": "Samuel Pereira Esteves",
+  "cargo": "Desenvolvedor Backend",
+  "gestor": false,
+  "posicao": "Júnior",
+  "ciclo": "2025",
+  "periodoinicio": "2025-01-01",
+  "periodofim": "2025-12-31",
+  "entregas": {
+    "naoForamEfetivas": { "nota": null },
+    "entregasParciais": { "nota": 6 },
+    "entregasConsistentes": { "nota": null },
+    "entregasAlém": { "nota": null }
+  },
+  "valores": {
+    "jogamosJuntosPelaCompanhia": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Participo das cerimônias e ajudo quando solicitado." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Engajado nas iniciativas do time." },
+      "gestor": { "criterio": "Mandou bem", "nota": 7, "observacao": "Boa postura colaborativa para um desenvolvedor júnior." }
+    },
+    "inovamosComFocoNoCliente": {
+      "auto": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Ainda em processo de entender o negócio e o cliente." },
+      "par": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Foco técnico ainda muito separado da visão de produto." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Desenvolvimento da visão de negócio ainda em curso." }
+    },
+    "temosFomeDeAprender": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Estudo todos os dias e aplico no trabalho." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Muito dedicado ao aprendizado técnico." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Evolução técnica consistente e acima do esperado para o nível." }
+    },
+    "vamosDiretoAoPonto": {
+      "auto": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Ainda aprendendo a comunicar problemas de forma direta." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Melhora progressiva na comunicação de bloqueios." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Pode melhorar proatividade na comunicação de impedimentos." }
+    },
+    "genteEResultadosAndamJuntos": {
+      "auto": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Ainda equilibrando velocidade e qualidade das entregas." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Esforçado e comprometido, entregas dentro do esperado para júnior." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Resultado parcial esperado para estágio inicial de carreira." }
+    }
+  }
+}

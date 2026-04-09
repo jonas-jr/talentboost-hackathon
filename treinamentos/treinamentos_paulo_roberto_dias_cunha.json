@@ -1,0 +1,87 @@
+{
+  "colaboradores": [
+    {
+      "colaboradorId": "T016",
+      "nome": "Paulo Roberto Dias Cunha",
+      "cargo": "Analista de Sistemas",
+      "departamento": "Tecnologia",
+      "gestorId": "T005",
+      "dataAdmissao": "2021-06-14",
+      "nivel": "Pleno",
+      "status": "Ativo"
+    }
+  ],
+
+  "cursos": [
+    {
+      "cursoID": "C001",
+      "titulo": "Segurança da Informação",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 4,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C002",
+      "titulo": "LGPD e Privacidade de Dados",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 3,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C003",
+      "titulo": "Prevenção ao Assédio e Discriminação",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 2,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C014",
+      "titulo": "SQL e Banco de Dados",
+      "categoria": "Tecnico",
+      "modalidade": "EAD",
+      "cargaHoraria": 10,
+      "obrigatorio": false,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C006",
+      "titulo": "Git e Versionamento de Código",
+      "categoria": "Tecnico",
+      "modalidade": "EAD",
+      "cargaHoraria": 8,
+      "obrigatorio": false,
+      "notaMinima": 6
+    },
+    {
+      "cursoID": "C005",
+      "titulo": "Fundamentos de Cloud AWS",
+      "categoria": "Tecnico",
+      "modalidade": "EAD",
+      "cargaHoraria": 16,
+      "obrigatorio": false,
+      "notaMinima": 7
+    }
+  ],
+
+  "matriculas": [
+    { "matriculaId": "EN001", "colaboradorId": "T016", "cursoID": "C001", "dataInicio": "2021-07-05", "dataFim": "2021-07-05", "status": "Concluido", "progresso": 100 },
+    { "matriculaId": "EN002", "colaboradorId": "T016", "cursoID": "C002", "dataInicio": "2021-07-07", "dataFim": "2021-07-07", "status": "Concluido", "progresso": 100 },
+    { "matriculaId": "EN003", "colaboradorId": "T016", "cursoID": "C003", "dataInicio": "2021-07-09", "dataFim": "2021-07-09", "status": "Concluido", "progresso": 100 },
+    { "matriculaId": "EN004", "colaboradorId": "T016", "cursoID": "C014", "dataInicio": "2022-05-02", "dataFim": "2022-05-16", "status": "Concluido", "progresso": 100 },
+    { "matriculaId": "EN005", "colaboradorId": "T016", "cursoID": "C006", "dataInicio": "2024-08-05", "dataFim": null, "status": "Pendente", "progresso": 0 },
+    { "matriculaId": "EN006", "colaboradorId": "T016", "cursoID": "C005", "dataInicio": "2024-08-05", "dataFim": null, "status": "Pendente", "progresso": 0 }
+  ],
+
+  "resultados": [
+    { "resultadoId": "R001", "matriculaId": "EN001", "nota": 7.0, "notaMinima": 7, "aprovado": true, "tentativas": 2, "dataAvaliacao": "2021-07-05" },
+    { "resultadoId": "R002", "matriculaId": "EN002", "nota": 7.5, "notaMinima": 7, "aprovado": true, "tentativas": 1, "dataAvaliacao": "2021-07-07" },
+    { "resultadoId": "R003", "matriculaId": "EN003", "nota": 7.0, "notaMinima": 7, "aprovado": true, "tentativas": 1, "dataAvaliacao": "2021-07-09" },
+    { "resultadoId": "R004", "matriculaId": "EN004", "nota": 7.5, "notaMinima": 7, "aprovado": true, "tentativas": 1, "dataAvaliacao": "2022-05-16" }
+  ]
+}

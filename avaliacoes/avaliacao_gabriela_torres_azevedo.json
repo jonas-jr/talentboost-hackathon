@@ -1,0 +1,42 @@
+{
+  "nome": "Gabriela Torres Azevedo",
+  "cargo": "Data Scientist",
+  "gestor": false,
+  "posicao": "Sênior",
+  "ciclo": "2025",
+  "periodoinicio": "2025-01-01",
+  "periodofim": "2025-12-31",
+  "entregas": {
+    "naoForamEfetivas": { "nota": null },
+    "entregasParciais": { "nota": null },
+    "entregasConsistentes": { "nota": 8 },
+    "entregasAlém": { "nota": null }
+  },
+  "valores": {
+    "jogamosJuntosPelaCompanhia": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Colaboro com produto e engenharia em projetos de ML." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Ótima parceira em iniciativas cross-funcionais." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Integração exemplar com times de negócio e engenharia." }
+    },
+    "inovamosComFocoNoCliente": {
+      "auto": { "criterio": "É referência", "nota": 9, "observacao": "Modelos desenvolvidos com foco direto em impacto de negócio." },
+      "par": { "criterio": "É referência", "nota": 9, "observacao": "Sempre contextualiza soluções de ML no problema do cliente." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Boas entregas de ciência de dados com foco em produto." }
+    },
+    "temosFomeDeAprender": {
+      "auto": { "criterio": "É referência", "nota": 9, "observacao": "Acompanho pesquisas de ponta e aplico no produto." },
+      "par": { "criterio": "É referência", "nota": 9, "observacao": "Compartilha papers e tendências de ML com o time." },
+      "gestor": { "criterio": "É referência", "nota": 9, "observacao": "Referência técnica em machine learning na empresa." }
+    },
+    "vamosDiretoAoPonto": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Apresento resultados de forma acessível para stakeholders." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Consegue traduzir análises complexas com clareza." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Comunicação clara de resultados técnicos para negócio." }
+    },
+    "genteEResultadosAndamJuntos": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Entrego modelos robustos sem deixar o time para trás." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Boa parceria no desenvolvimento de soluções de dados." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Alta qualidade técnica com bom relacionamento interpessoal." }
+    }
+  }
+}

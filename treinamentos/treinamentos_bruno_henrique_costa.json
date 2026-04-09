@@ -1,0 +1,203 @@
+{
+  "colaboradores": [
+    {
+      "colaboradorId": "T002",
+      "nome": "Bruno Henrique Costa",
+      "cargo": "Engenheiro de Dados",
+      "departamento": "Dados e Inteligência",
+      "gestorId": "T020",
+      "dataAdmissao": "2022-06-01",
+      "nivel": "Pleno",
+      "status": "Ativo"
+    }
+  ],
+
+  "cursos": [
+    {
+      "cursoID": "C001",
+      "titulo": "Segurança da Informação",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 4,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C002",
+      "titulo": "LGPD e Privacidade de Dados",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 3,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C003",
+      "titulo": "Prevenção ao Assédio e Discriminação",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 2,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C004",
+      "titulo": "Python para Análise de Dados",
+      "categoria": "Tecnico",
+      "modalidade": "EAD",
+      "cargaHoraria": 20,
+      "obrigatorio": false,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C008",
+      "titulo": "Machine Learning Aplicado",
+      "categoria": "Tecnico",
+      "modalidade": "EAD",
+      "cargaHoraria": 24,
+      "obrigatorio": false,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C014",
+      "titulo": "SQL e Banco de Dados",
+      "categoria": "Tecnico",
+      "modalidade": "EAD",
+      "cargaHoraria": 10,
+      "obrigatorio": false,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C005",
+      "titulo": "Fundamentos de Cloud AWS",
+      "categoria": "Tecnico",
+      "modalidade": "EAD",
+      "cargaHoraria": 16,
+      "obrigatorio": false,
+      "notaMinima": 7
+    }
+  ],
+
+  "matriculas": [
+    {
+      "matriculaId": "EN001",
+      "colaboradorId": "T002",
+      "cursoID": "C001",
+      "dataInicio": "2022-07-04",
+      "dataFim": "2022-07-04",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN002",
+      "colaboradorId": "T002",
+      "cursoID": "C002",
+      "dataInicio": "2022-07-06",
+      "dataFim": "2022-07-06",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN003",
+      "colaboradorId": "T002",
+      "cursoID": "C003",
+      "dataInicio": "2022-07-08",
+      "dataFim": "2022-07-08",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN004",
+      "colaboradorId": "T002",
+      "cursoID": "C004",
+      "dataInicio": "2022-09-12",
+      "dataFim": "2022-10-05",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN005",
+      "colaboradorId": "T002",
+      "cursoID": "C014",
+      "dataInicio": "2023-02-06",
+      "dataFim": "2023-02-20",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN006",
+      "colaboradorId": "T002",
+      "cursoID": "C008",
+      "dataInicio": "2023-08-14",
+      "dataFim": "2023-09-18",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN007",
+      "colaboradorId": "T002",
+      "cursoID": "C005",
+      "dataInicio": "2025-01-10",
+      "dataFim": null,
+      "status": "Em Andamento",
+      "progresso": 75
+    }
+  ],
+
+  "resultados": [
+    {
+      "resultadoId": "R001",
+      "matriculaId": "EN001",
+      "nota": 9.0,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2022-07-04"
+    },
+    {
+      "resultadoId": "R002",
+      "matriculaId": "EN002",
+      "nota": 8.5,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2022-07-06"
+    },
+    {
+      "resultadoId": "R003",
+      "matriculaId": "EN003",
+      "nota": 9.0,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2022-07-08"
+    },
+    {
+      "resultadoId": "R004",
+      "matriculaId": "EN004",
+      "nota": 9.5,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2022-10-05"
+    },
+    {
+      "resultadoId": "R005",
+      "matriculaId": "EN005",
+      "nota": 9.2,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2023-02-20"
+    },
+    {
+      "resultadoId": "R006",
+      "matriculaId": "EN006",
+      "nota": 8.8,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2023-09-18"
+    }
+  ]
+}

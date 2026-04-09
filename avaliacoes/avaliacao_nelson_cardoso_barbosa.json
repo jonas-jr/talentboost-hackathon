@@ -1,0 +1,42 @@
+{
+  "nome": "Nelson Cardoso Barbosa",
+  "cargo": "Gerente de Produto",
+  "gestor": true,
+  "posicao": "Liderança",
+  "ciclo": "2025",
+  "periodoinicio": "2025-01-01",
+  "periodofim": "2025-12-31",
+  "entregas": {
+    "naoForamEfetivas": { "nota": null },
+    "entregasParciais": { "nota": null },
+    "entregasConsistentes": { "nota": 8 },
+    "entregasAlém": { "nota": null }
+  },
+  "valores": {
+    "jogamosJuntosPelaCompanhia": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Garanto alinhamento entre as squads e os stakeholders." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Boa articulação entre times e áreas de negócio." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Boa gestão de stakeholders e alinhamento organizacional." }
+    },
+    "inovamosComFocoNoCliente": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Roadmap construído com base em dados de cliente." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Decisões de produto sempre embasadas em pesquisa." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Boa orientação de produto ao cliente e ao mercado." }
+    },
+    "temosFomeDeAprender": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Atualizo práticas de product management continuamente." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Compartilha cases e benchmarks de produto." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Boa evolução em gestão de produto no período." }
+    },
+    "vamosDiretoAoPonto": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Comunicação clara de visão e prioridades." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Decisões de roadmap bem comunicadas e fundamentadas." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Ótima clareza na comunicação de estratégia de produto." }
+    },
+    "genteEResultadosAndamJuntos": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Desenvolvo o time enquanto entrego o roadmap." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Liderança que se preocupa com as pessoas do time." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Bom equilíbrio de entrega de produto e desenvolvimento de time." }
+    }
+  }
+}

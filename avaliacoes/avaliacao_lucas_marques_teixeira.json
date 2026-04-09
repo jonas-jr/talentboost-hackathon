@@ -1,0 +1,42 @@
+{
+  "nome": "Lucas Marques Teixeira",
+  "cargo": "Desenvolvedor Fullstack",
+  "gestor": false,
+  "posicao": "Sênior",
+  "ciclo": "2025",
+  "periodoinicio": "2025-01-01",
+  "periodofim": "2025-12-31",
+  "entregas": {
+    "naoForamEfetivas": { "nota": null },
+    "entregasParciais": { "nota": null },
+    "entregasConsistentes": { "nota": null },
+    "entregasAlém": { "nota": 9 }
+  },
+  "valores": {
+    "jogamosJuntosPelaCompanhia": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Contribuo ativamente nas discussões de arquitetura do time." },
+      "par": { "criterio": "É referência", "nota": 9, "observacao": "Go-to person para dúvidas técnicas do time inteiro." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Liderança técnica informal muito valorizada pelo time." }
+    },
+    "inovamosComFocoNoCliente": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Proponho melhorias de performance que impactam a UX." },
+      "par": { "criterio": "Mandou bem", "nota": 9, "observacao": "Iniciativas técnicas sempre conectadas a valor para o usuário." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Boas iniciativas de melhoria com impacto real no produto." }
+    },
+    "temosFomeDeAprender": {
+      "auto": { "criterio": "É referência", "nota": 9, "observacao": "Estudo novas tecnologias e trago para o time." },
+      "par": { "criterio": "É referência", "nota": 9, "observacao": "Sempre introduzindo melhorias baseadas em aprendizado." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Evolução técnica contínua com foco em aplicação prática." }
+    },
+    "vamosDiretoAoPonto": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Code reviews objetivos e construtivos." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Feedback técnico sempre claro e acionável." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Comunicação técnica de alto nível com o time." }
+    },
+    "genteEResultadosAndamJuntos": {
+      "auto": { "criterio": "É referência", "nota": 9, "observacao": "Elevo o time enquanto entrego funcionalidades complexas." },
+      "par": { "criterio": "É referência", "nota": 9, "observacao": "Alta entrega individual com impacto positivo no time." },
+      "gestor": { "criterio": "É referência", "nota": 9, "observacao": "Referência de resultado e colaboração no time." }
+    }
+  }
+}

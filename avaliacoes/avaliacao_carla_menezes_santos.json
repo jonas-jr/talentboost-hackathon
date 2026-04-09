@@ -1,0 +1,42 @@
+{
+  "nome": "Carla Menezes Santos",
+  "cargo": "Product Manager",
+  "gestor": false,
+  "posicao": "Sênior",
+  "ciclo": "2025",
+  "periodoinicio": "2025-01-01",
+  "periodofim": "2025-12-31",
+  "entregas": {
+    "naoForamEfetivas": { "nota": null },
+    "entregasParciais": { "nota": 5 },
+    "entregasConsistentes": { "nota": null },
+    "entregasAlém": { "nota": null }
+  },
+  "valores": {
+    "jogamosJuntosPelaCompanhia": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Tento alinhar stakeholders com frequência." },
+      "par": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Às vezes toma decisões sem consultar o time técnico." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Precisa melhorar a escuta ativa com engenharia." }
+    },
+    "inovamosComFocoNoCliente": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Realizo pesquisas de usuário com frequência." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Traz dados de cliente para embasar decisões." },
+      "gestor": { "criterio": "Mandou bem", "nota": 7, "observacao": "Boa orientação a dados de cliente nas priorizações." }
+    },
+    "temosFomeDeAprender": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Participo de comunidades de produto." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Compartilha cases e benchmarks do mercado." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Pode aprofundar conhecimento técnico do domínio." }
+    },
+    "vamosDiretoAoPonto": {
+      "auto": { "criterio": "Pode melhorar", "nota": 6, "observacao": "PRDs extensos, ainda simplificando." },
+      "par": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Reuniões costumam extrapolar o tempo planejado." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Documentação precisa de mais síntese e objetividade." }
+    },
+    "genteEResultadosAndamJuntos": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Cuido do time enquanto busco resultado." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Boa parceria com o time de design e engenharia." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Resultados abaixo do esperado para o nível sênior." }
+    }
+  }
+}

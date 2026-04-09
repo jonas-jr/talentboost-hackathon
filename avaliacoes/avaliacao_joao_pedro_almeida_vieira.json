@@ -1,0 +1,42 @@
+{
+  "nome": "João Pedro Almeida Vieira",
+  "cargo": "Arquiteto de Software",
+  "gestor": false,
+  "posicao": "Especialista",
+  "ciclo": "2025",
+  "periodoinicio": "2025-01-01",
+  "periodofim": "2025-12-31",
+  "entregas": {
+    "naoForamEfetivas": { "nota": null },
+    "entregasParciais": { "nota": null },
+    "entregasConsistentes": { "nota": null },
+    "entregasAlém": { "nota": 9 }
+  },
+  "valores": {
+    "jogamosJuntosPelaCompanhia": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Contribuo para decisões arquiteturais de toda a organização." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Apoia diversas squads em decisões de design de sistema." },
+      "gestor": { "criterio": "Mandou bem", "nota": 9, "observacao": "Visão arquitetural que beneficia toda a plataforma." }
+    },
+    "inovamosComFocoNoCliente": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Arquitetura desenhada para escalar com o crescimento do produto." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Decisões técnicas com impacto positivo em experiência." },
+      "gestor": { "criterio": "É referência", "nota": 9, "observacao": "Arquitetura habilitadora de inovação de produto." }
+    },
+    "temosFomeDeAprender": {
+      "auto": { "criterio": "É referência", "nota": 10, "observacao": "Lidero o grupo de estudos de arquitetura da empresa." },
+      "par": { "criterio": "É referência", "nota": 10, "observacao": "Referência absoluta em aprendizado técnico." },
+      "gestor": { "criterio": "É referência", "nota": 10, "observacao": "Eleva o nível técnico de toda a engenharia." }
+    },
+    "vamosDiretoAoPonto": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "ADRs bem estruturados e fáceis de consumir." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Documenta decisões com clareza e fundamentação." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Comunicação técnica de alto nível e acessível." }
+    },
+    "genteEResultadosAndamJuntos": {
+      "auto": { "criterio": "É referência", "nota": 9, "observacao": "Guio o time enquanto entregamos a plataforma mais robusta." },
+      "par": { "criterio": "É referência", "nota": 9, "observacao": "Eleva o time enquanto entrega resultados excepcionais." },
+      "gestor": { "criterio": "É referência", "nota": 9, "observacao": "Alta entrega técnica com forte multiplicação de conhecimento." }
+    }
+  }
+}

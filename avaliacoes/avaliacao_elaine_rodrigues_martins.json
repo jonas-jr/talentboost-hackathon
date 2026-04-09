@@ -1,0 +1,42 @@
+{
+  "nome": "Elaine Rodrigues Martins",
+  "cargo": "Tech Lead",
+  "gestor": true,
+  "posicao": "Liderança",
+  "ciclo": "2025",
+  "periodoinicio": "2025-01-01",
+  "periodofim": "2025-12-31",
+  "entregas": {
+    "naoForamEfetivas": { "nota": null },
+    "entregasParciais": { "nota": null },
+    "entregasConsistentes": { "nota": null },
+    "entregasAlém": { "nota": 10 }
+  },
+  "valores": {
+    "jogamosJuntosPelaCompanhia": {
+      "auto": { "criterio": "É referência", "nota": 10, "observacao": "Atuo como ponte entre produto, design e engenharia." },
+      "par": { "criterio": "É referência", "nota": 10, "observacao": "Referência em colaboração e alinhamento organizacional." },
+      "gestor": { "criterio": "É referência", "nota": 10, "observacao": "Liderança que eleva toda a organização de engenharia." }
+    },
+    "inovamosComFocoNoCliente": {
+      "auto": { "criterio": "É referência", "nota": 9, "observacao": "Direciono decisões técnicas com impacto direto no produto." },
+      "par": { "criterio": "É referência", "nota": 9, "observacao": "Sempre conecta escolhas técnicas ao valor para o cliente." },
+      "gestor": { "criterio": "É referência", "nota": 9, "observacao": "Inovação técnica orientada a resultados de negócio." }
+    },
+    "temosFomeDeAprender": {
+      "auto": { "criterio": "É referência", "nota": 9, "observacao": "Incentivo o time a aprender e compartilho conhecimento." },
+      "par": { "criterio": "É referência", "nota": 9, "observacao": "Tech talks, revisões de código e mentoria constantes." },
+      "gestor": { "criterio": "É referência", "nota": 9, "observacao": "Cria cultura de aprendizado contínuo na equipe." }
+    },
+    "vamosDiretoAoPonto": {
+      "auto": { "criterio": "É referência", "nota": 9, "observacao": "ADRs claros e decisões bem fundamentadas e comunicadas." },
+      "par": { "criterio": "É referência", "nota": 9, "observacao": "Reuniões técnicas objetivas e sempre com outcome claro." },
+      "gestor": { "criterio": "É referência", "nota": 10, "observacao": "Comunicação técnica exemplar em todos os níveis." }
+    },
+    "genteEResultadosAndamJuntos": {
+      "auto": { "criterio": "É referência", "nota": 10, "observacao": "Desenvolvo o time enquanto entregamos resultados excepcionais." },
+      "par": { "criterio": "É referência", "nota": 10, "observacao": "Cria ambiente de alta performance e alto cuidado com pessoas." },
+      "gestor": { "criterio": "É referência", "nota": 10, "observacao": "Melhor equilíbrio de resultado e desenvolvimento de pessoas." }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "nome": "Tatiana Luz Fontenele",
+  "cargo": "Diretora de Tecnologia",
+  "gestor": true,
+  "posicao": "Liderança",
+  "ciclo": "2025",
+  "periodoinicio": "2025-01-01",
+  "periodofim": "2025-12-31",
+  "entregas": {
+    "naoForamEfetivas": { "nota": null },
+    "entregasParciais": { "nota": null },
+    "entregasConsistentes": { "nota": null },
+    "entregasAlém": { "nota": 10 }
+  },
+  "valores": {
+    "jogamosJuntosPelaCompanhia": {
+      "auto": { "criterio": "É referência", "nota": 10, "observacao": "Promovo integração entre tecnologia, produto e negócio." },
+      "par": { "criterio": "É referência", "nota": 10, "observacao": "Liderança que une toda a organização de tecnologia." },
+      "gestor": { "criterio": "É referência", "nota": 10, "observacao": "Referência máxima de colaboração organizacional." }
+    },
+    "inovamosComFocoNoCliente": {
+      "auto": { "criterio": "É referência", "nota": 10, "observacao": "Estratégia tecnológica construída sobre impacto no cliente." },
+      "par": { "criterio": "É referência", "nota": 10, "observacao": "Visão de inovação sempre conectada à experiência do usuário." },
+      "gestor": { "criterio": "É referência", "nota": 10, "observacao": "Define a direção de inovação com foco absoluto no cliente." }
+    },
+    "temosFomeDeAprender": {
+      "auto": { "criterio": "É referência", "nota": 9, "observacao": "Incentivo aprendizado em toda a organização de tecnologia." },
+      "par": { "criterio": "É referência", "nota": 9, "observacao": "Cria ecossistema de aprendizado contínuo na empresa." },
+      "gestor": { "criterio": "É referência", "nota": 9, "observacao": "Referência de liderança que promove cultura de aprendizado." }
+    },
+    "vamosDiretoAoPonto": {
+      "auto": { "criterio": "É referência", "nota": 9, "observacao": "Comunicação estratégica clara com C-level e times." },
+      "par": { "criterio": "É referência", "nota": 9, "observacao": "Visão e estratégia sempre bem comunicadas e acessíveis." },
+      "gestor": { "criterio": "É referência", "nota": 9, "observacao": "Comunicação executiva exemplar em todos os fóruns." }
+    },
+    "genteEResultadosAndamJuntos": {
+      "auto": { "criterio": "É referência", "nota": 10, "observacao": "Desenvolvo líderes enquanto entrego a estratégia de tech." },
+      "par": { "criterio": "É referência", "nota": 10, "observacao": "Resultados históricos com desenvolvimento de toda a liderança." },
+      "gestor": { "criterio": "É referência", "nota": 10, "observacao": "Melhor ciclo de entrega e desenvolvimento de liderança da empresa." }
+    }
+  }
+}

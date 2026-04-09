@@ -1,0 +1,133 @@
+{
+  "colaboradores": [
+    {
+      "colaboradorId": "E001",
+      "nome": "Carlos Mendes",
+      "cargo": "Analista de Sistemas",
+      "departamento": "Tecnologia",
+      "gestorId": "E005",
+      "dataAdmissao": "2022-03-10",
+      "nivel": "Pleno",
+      "status": "Ativo"
+    },
+    {
+      "colaboradorId": "E002",
+      "nome": "Fernanda Alves",
+      "cargo": "Assistente Administrativo",
+      "departamento": "Financeiro",
+      "gestorId": "E004",
+      "dataAdmissao": "2023-01-15",
+      "nivel": "Junior",
+      "status": "Ativo"
+    },
+    {
+      "colaboradorId": "E003",
+      "nome": "Ricardo Souza",
+      "cargo": "Desenvolvedor Backend",
+      "departamento": "Tecnologia",
+      "gestorId": "E005",
+      "dataAdmissao": "2021-07-01",
+      "nivel": "Senior",
+      "status": "Ativo"
+    }
+  ],
+
+  "cursos": [
+    {
+      "cursoID": "C001",
+      "titulo": "Segurança da Informação",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 4,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C002",
+      "titulo": "Boas Práticas em SQL Server",
+      "categoria": "Tecnico",
+      "modalidade": "EAD",
+      "cargaHoraria": 6,
+      "obrigatorio": false,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C003",
+      "titulo": "Gestão de Pessoas",
+      "categoria": "Lideranca",
+      "modalidade": "EAD",
+      "cargaHoraria": 8,
+      "obrigatorio": false,
+      "notaMinima": 7
+    }
+  ],
+
+  "matriculas": [
+    {
+      "matriculaId": "EN001",
+      "colaboradorId": "E001",
+      "cursoID": "C001",
+      "dataInicio": "2026-01-10",
+      "dataFim": "2026-01-10",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN004",
+      "colaboradorId": "E001",
+      "cursoID": "C002",
+      "dataInicio": "2025-10-10",
+      "dataFim": null,
+      "status": "Pendente",
+      "progresso": 33
+    },	
+    {
+      "matriculaId": "EN002",
+      "colaboradorId": "E002",
+      "cursoID": "C001",
+      "dataInicio": "2026-02-05",
+      "dataFim": "2026-02-05",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN003",
+      "colaboradorId": "E003",
+      "cursoID": "C002",
+      "dataInicio": "2026-01-15",
+      "dataFim": "2026-01-18",
+      "status": "Concluido",
+      "progresso": 100
+    }
+  ],
+
+  "resultados": [
+    {
+      "resultadoId": "R001",
+      "matriculaId": "EN001",
+      "nota": 8.5,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2026-01-10"
+    },
+    {
+      "resultadoId": "R002",
+      "matriculaId": "EN002",
+      "nota": 6.2,
+      "notaMinima": 7,
+      "aprovado": false,
+      "tentativas": 1,
+      "dataAvaliacao": "2026-02-05"
+    },
+    {
+      "resultadoId": "R003",
+      "matriculaId": "EN003",
+      "nota": 9.1,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2026-01-18"
+    }
+  ]
+}

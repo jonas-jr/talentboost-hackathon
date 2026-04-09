@@ -1,0 +1,266 @@
+{
+  "colaboradores": [
+    {
+      "colaboradorId": "T005",
+      "nome": "Elaine Rodrigues Martins",
+      "cargo": "Tech Lead",
+      "departamento": "Tecnologia",
+      "gestorId": "T020",
+      "dataAdmissao": "2019-01-14",
+      "nivel": "Lideranca",
+      "status": "Ativo"
+    }
+  ],
+
+  "cursos": [
+    {
+      "cursoID": "C001",
+      "titulo": "Segurança da Informação",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 4,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C002",
+      "titulo": "LGPD e Privacidade de Dados",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 3,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C003",
+      "titulo": "Prevenção ao Assédio e Discriminação",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 2,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C010",
+      "titulo": "Gestão de Pessoas e Liderança",
+      "categoria": "Lideranca",
+      "modalidade": "Presencial",
+      "cargaHoraria": 16,
+      "obrigatorio": false,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C015",
+      "titulo": "Feedback e Desenvolvimento de Equipes",
+      "categoria": "Lideranca",
+      "modalidade": "Presencial",
+      "cargaHoraria": 8,
+      "obrigatorio": false,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C005",
+      "titulo": "Fundamentos de Cloud AWS",
+      "categoria": "Tecnico",
+      "modalidade": "EAD",
+      "cargaHoraria": 16,
+      "obrigatorio": false,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C007",
+      "titulo": "Docker e Kubernetes",
+      "categoria": "Tecnico",
+      "modalidade": "EAD",
+      "cargaHoraria": 12,
+      "obrigatorio": false,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C011",
+      "titulo": "Comunicação Assertiva",
+      "categoria": "Comportamental",
+      "modalidade": "EAD",
+      "cargaHoraria": 6,
+      "obrigatorio": false,
+      "notaMinima": 6
+    },
+    {
+      "cursoID": "C012",
+      "titulo": "Metodologias Ágeis e Scrum",
+      "categoria": "Tecnico",
+      "modalidade": "EAD",
+      "cargaHoraria": 10,
+      "obrigatorio": false,
+      "notaMinima": 7
+    }
+  ],
+
+  "matriculas": [
+    {
+      "matriculaId": "EN001",
+      "colaboradorId": "T005",
+      "cursoID": "C001",
+      "dataInicio": "2019-02-04",
+      "dataFim": "2019-02-04",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN002",
+      "colaboradorId": "T005",
+      "cursoID": "C002",
+      "dataInicio": "2019-02-06",
+      "dataFim": "2019-02-06",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN003",
+      "colaboradorId": "T005",
+      "cursoID": "C003",
+      "dataInicio": "2019-02-08",
+      "dataFim": "2019-02-08",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN004",
+      "colaboradorId": "T005",
+      "cursoID": "C012",
+      "dataInicio": "2019-06-10",
+      "dataFim": "2019-06-20",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN005",
+      "colaboradorId": "T005",
+      "cursoID": "C005",
+      "dataInicio": "2020-03-02",
+      "dataFim": "2020-03-20",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN006",
+      "colaboradorId": "T005",
+      "cursoID": "C007",
+      "dataInicio": "2021-02-08",
+      "dataFim": "2021-02-22",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN007",
+      "colaboradorId": "T005",
+      "cursoID": "C010",
+      "dataInicio": "2022-05-09",
+      "dataFim": "2022-05-26",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN008",
+      "colaboradorId": "T005",
+      "cursoID": "C011",
+      "dataInicio": "2023-03-13",
+      "dataFim": "2023-03-20",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN009",
+      "colaboradorId": "T005",
+      "cursoID": "C015",
+      "dataInicio": "2024-04-08",
+      "dataFim": "2024-04-15",
+      "status": "Concluido",
+      "progresso": 100
+    }
+  ],
+
+  "resultados": [
+    {
+      "resultadoId": "R001",
+      "matriculaId": "EN001",
+      "nota": 9.5,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2019-02-04"
+    },
+    {
+      "resultadoId": "R002",
+      "matriculaId": "EN002",
+      "nota": 9.0,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2019-02-06"
+    },
+    {
+      "resultadoId": "R003",
+      "matriculaId": "EN003",
+      "nota": 9.5,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2019-02-08"
+    },
+    {
+      "resultadoId": "R004",
+      "matriculaId": "EN004",
+      "nota": 8.8,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2019-06-20"
+    },
+    {
+      "resultadoId": "R005",
+      "matriculaId": "EN005",
+      "nota": 8.5,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2020-03-20"
+    },
+    {
+      "resultadoId": "R006",
+      "matriculaId": "EN006",
+      "nota": 9.0,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2021-02-22"
+    },
+    {
+      "resultadoId": "R007",
+      "matriculaId": "EN007",
+      "nota": 9.0,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2022-05-26"
+    },
+    {
+      "resultadoId": "R008",
+      "matriculaId": "EN008",
+      "nota": 9.2,
+      "notaMinima": 6,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2023-03-20"
+    },
+    {
+      "resultadoId": "R009",
+      "matriculaId": "EN009",
+      "nota": 9.5,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2024-04-15"
+    }
+  ]
+}

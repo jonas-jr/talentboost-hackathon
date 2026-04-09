@@ -1,0 +1,194 @@
+{
+  "colaboradores": [
+    {
+      "colaboradorId": "T003",
+      "nome": "Carla Menezes Santos",
+      "cargo": "Product Manager",
+      "departamento": "Produto",
+      "gestorId": "T014",
+      "dataAdmissao": "2020-02-03",
+      "nivel": "Senior",
+      "status": "Ativo"
+    }
+  ],
+
+  "cursos": [
+    {
+      "cursoID": "C001",
+      "titulo": "Segurança da Informação",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 4,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C002",
+      "titulo": "LGPD e Privacidade de Dados",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 3,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C003",
+      "titulo": "Prevenção ao Assédio e Discriminação",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 2,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C012",
+      "titulo": "Metodologias Ágeis e Scrum",
+      "categoria": "Tecnico",
+      "modalidade": "EAD",
+      "cargaHoraria": 10,
+      "obrigatorio": false,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C013",
+      "titulo": "Design Thinking e Inovação",
+      "categoria": "Comportamental",
+      "modalidade": "EAD",
+      "cargaHoraria": 8,
+      "obrigatorio": false,
+      "notaMinima": 6
+    },
+    {
+      "cursoID": "C010",
+      "titulo": "Gestão de Pessoas e Liderança",
+      "categoria": "Lideranca",
+      "modalidade": "Presencial",
+      "cargaHoraria": 16,
+      "obrigatorio": false,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C011",
+      "titulo": "Comunicação Assertiva",
+      "categoria": "Comportamental",
+      "modalidade": "EAD",
+      "cargaHoraria": 6,
+      "obrigatorio": false,
+      "notaMinima": 6
+    }
+  ],
+
+  "matriculas": [
+    {
+      "matriculaId": "EN001",
+      "colaboradorId": "T003",
+      "cursoID": "C001",
+      "dataInicio": "2020-03-02",
+      "dataFim": "2020-03-02",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN002",
+      "colaboradorId": "T003",
+      "cursoID": "C002",
+      "dataInicio": "2020-03-04",
+      "dataFim": "2020-03-04",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN003",
+      "colaboradorId": "T003",
+      "cursoID": "C003",
+      "dataInicio": "2020-03-06",
+      "dataFim": "2020-03-06",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN004",
+      "colaboradorId": "T003",
+      "cursoID": "C012",
+      "dataInicio": "2021-05-10",
+      "dataFim": "2021-05-20",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN005",
+      "colaboradorId": "T003",
+      "cursoID": "C013",
+      "dataInicio": "2022-03-07",
+      "dataFim": "2022-03-15",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN006",
+      "colaboradorId": "T003",
+      "cursoID": "C010",
+      "dataInicio": "2024-09-02",
+      "dataFim": null,
+      "status": "Em Andamento",
+      "progresso": 50
+    },
+    {
+      "matriculaId": "EN007",
+      "colaboradorId": "T003",
+      "cursoID": "C011",
+      "dataInicio": "2025-01-15",
+      "dataFim": null,
+      "status": "Pendente",
+      "progresso": 0
+    }
+  ],
+
+  "resultados": [
+    {
+      "resultadoId": "R001",
+      "matriculaId": "EN001",
+      "nota": 7.5,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2020-03-02"
+    },
+    {
+      "resultadoId": "R002",
+      "matriculaId": "EN002",
+      "nota": 8.0,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2020-03-04"
+    },
+    {
+      "resultadoId": "R003",
+      "matriculaId": "EN003",
+      "nota": 7.0,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 2,
+      "dataAvaliacao": "2020-03-06"
+    },
+    {
+      "resultadoId": "R004",
+      "matriculaId": "EN004",
+      "nota": 8.5,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2021-05-20"
+    },
+    {
+      "resultadoId": "R005",
+      "matriculaId": "EN005",
+      "nota": 7.8,
+      "notaMinima": 6,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2022-03-15"
+    }
+  ]
+}

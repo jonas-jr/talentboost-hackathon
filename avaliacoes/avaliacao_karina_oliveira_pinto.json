@@ -1,0 +1,42 @@
+{
+  "nome": "Karina Oliveira Pinto",
+  "cargo": "Analista de Negócios",
+  "gestor": false,
+  "posicao": "Pleno",
+  "ciclo": "2025",
+  "periodoinicio": "2025-01-01",
+  "periodofim": "2025-12-31",
+  "entregas": {
+    "naoForamEfetivas": { "nota": null },
+    "entregasParciais": { "nota": null },
+    "entregasConsistentes": { "nota": 7 },
+    "entregasAlém": { "nota": null }
+  },
+  "valores": {
+    "jogamosJuntosPelaCompanhia": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Facilito o entendimento entre negócio e tecnologia." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Ótima tradutora entre as linguagens de negócio e produto." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Papel de conector entre áreas de forma eficiente." }
+    },
+    "inovamosComFocoNoCliente": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Mapeio processos com foco na jornada do cliente." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Análises sempre orientadas a impacto no usuário final." },
+      "gestor": { "criterio": "Mandou bem", "nota": 7, "observacao": "Boa orientação de negócio ao cliente nas entregas." }
+    },
+    "temosFomeDeAprender": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Busco conhecimento em análise de dados e produto." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Evolução constante nas ferramentas de análise de negócio." },
+      "gestor": { "criterio": "Mandou bem", "nota": 7, "observacao": "Boa evolução em capacidades analíticas no período." }
+    },
+    "vamosDiretoAoPonto": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Documentações objetivas de requisitos e processos." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Clareza nos levantamentos de requisitos." },
+      "gestor": { "criterio": "Mandou bem", "nota": 7, "observacao": "Boa objetividade nas análises e apresentações." }
+    },
+    "genteEResultadosAndamJuntos": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Entrego análises de qualidade dentro dos prazos." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Confiável nas entregas e boa parceria com o time." },
+      "gestor": { "criterio": "Mandou bem", "nota": 7, "observacao": "Resultado consistente para o nível pleno." }
+    }
+  }
+}

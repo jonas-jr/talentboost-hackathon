@@ -1,0 +1,140 @@
+{
+  "colaboradores": [
+    {
+      "colaboradorId": "T018",
+      "nome": "Renata Gomes Vasconcelos",
+      "cargo": "Analista de Customer Success",
+      "departamento": "Produto",
+      "gestorId": "T014",
+      "dataAdmissao": "2022-02-21",
+      "nivel": "Pleno",
+      "status": "Ativo"
+    }
+  ],
+
+  "cursos": [
+    {
+      "cursoID": "C001",
+      "titulo": "Segurança da Informação",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 4,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C002",
+      "titulo": "LGPD e Privacidade de Dados",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 3,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C003",
+      "titulo": "Prevenção ao Assédio e Discriminação",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 2,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C011",
+      "titulo": "Comunicação Assertiva",
+      "categoria": "Comportamental",
+      "modalidade": "EAD",
+      "cargaHoraria": 6,
+      "obrigatorio": false,
+      "notaMinima": 6
+    },
+    {
+      "cursoID": "C013",
+      "titulo": "Design Thinking e Inovação",
+      "categoria": "Comportamental",
+      "modalidade": "EAD",
+      "cargaHoraria": 8,
+      "obrigatorio": false,
+      "notaMinima": 6
+    }
+  ],
+
+  "matriculas": [
+    {
+      "matriculaId": "EN001",
+      "colaboradorId": "T018",
+      "cursoID": "C001",
+      "dataInicio": "2022-03-07",
+      "dataFim": "2022-03-07",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN002",
+      "colaboradorId": "T018",
+      "cursoID": "C002",
+      "dataInicio": "2022-03-09",
+      "dataFim": "2022-03-09",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN003",
+      "colaboradorId": "T018",
+      "cursoID": "C003",
+      "dataInicio": "2022-03-11",
+      "dataFim": "2022-03-11",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN004",
+      "colaboradorId": "T018",
+      "cursoID": "C011",
+      "dataInicio": "2024-06-03",
+      "dataFim": null,
+      "status": "Pendente",
+      "progresso": 0
+    },
+    {
+      "matriculaId": "EN005",
+      "colaboradorId": "T018",
+      "cursoID": "C013",
+      "dataInicio": "2024-06-03",
+      "dataFim": null,
+      "status": "Pendente",
+      "progresso": 0
+    }
+  ],
+
+  "resultados": [
+    {
+      "resultadoId": "R001",
+      "matriculaId": "EN001",
+      "nota": 6.5,
+      "notaMinima": 7,
+      "aprovado": false,
+      "tentativas": 1,
+      "dataAvaliacao": "2022-03-07"
+    },
+    {
+      "resultadoId": "R002",
+      "matriculaId": "EN002",
+      "nota": 7.0,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 2,
+      "dataAvaliacao": "2022-03-09"
+    },
+    {
+      "resultadoId": "R003",
+      "matriculaId": "EN003",
+      "nota": 7.5,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2022-03-11"
+    }
+  ]
+}

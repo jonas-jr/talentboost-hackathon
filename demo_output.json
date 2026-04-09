@@ -1,0 +1,55 @@
+{
+  "employee_name": "Ana Paula Ferreira",
+  "profile": {
+    "cargo": "Desenvolvedora Backend",
+    "nivel": "Junior",
+    "nota_media_geral": 6.67,
+    "pontos_fortes": [
+      "Aprendizado"
+    ],
+    "total_gaps": 3
+  },
+  "gaps": [
+    {
+      "competency": "Inovação com Foco no Cliente",
+      "score": 5.33,
+      "severity": "high",
+      "urgency": "high"
+    },
+    {
+      "competency": "Comunicação Direta e Objetiva",
+      "score": 6.33,
+      "severity": "high",
+      "urgency": "high"
+    },
+    {
+      "competency": "Colaboração e Trabalho em Equipe",
+      "score": 6.67,
+      "severity": "medium",
+      "urgency": "medium"
+    }
+  ],
+  "recommendations": [
+    {
+      "titulo": "Fundamentos de Cloud AWS",
+      "categoria": "Tecnico",
+      "priority": "high",
+      "relevance_score": 0.3,
+      "match_reason": "Pode ajudar no desenvolvimento de 'Inovação com Foco no Cliente' — AÇÃO PRIORITÁRIA"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "by_priority": {
+      "high": [
+        "Fundamentos de Cloud AWS"
+      ]
+    },
+    "by_category": {
+      "Tecnico": [
+        "Fundamentos de Cloud AWS"
+      ]
+    },
+    "average_relevance": 0.3
+  }
+}

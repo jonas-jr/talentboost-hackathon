@@ -1,0 +1,42 @@
+{
+  "nome": "Henrique Batista Melo",
+  "cargo": "QA Engineer",
+  "gestor": false,
+  "posicao": "Pleno",
+  "ciclo": "2025",
+  "periodoinicio": "2025-01-01",
+  "periodofim": "2025-12-31",
+  "entregas": {
+    "naoForamEfetivas": { "nota": null },
+    "entregasParciais": { "nota": 6 },
+    "entregasConsistentes": { "nota": null },
+    "entregasAlém": { "nota": null }
+  },
+  "valores": {
+    "jogamosJuntosPelaCompanhia": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Trabalho bem integrado com desenvolvimento e produto." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Colaborativo no processo de testes e revisões." },
+      "gestor": { "criterio": "Mandou bem", "nota": 7, "observacao": "Boa integração com as squads de desenvolvimento." }
+    },
+    "inovamosComFocoNoCliente": {
+      "auto": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Estou expandindo visão além dos testes funcionais." },
+      "par": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Foco muito técnico, pode ampliar perspectiva de experiência." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Pode evoluir em testes de experiência e jornada do usuário." }
+    },
+    "temosFomeDeAprender": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Estudo automação e performance testing." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Evolução contínua nas práticas de qualidade." },
+      "gestor": { "criterio": "Mandou bem", "nota": 7, "observacao": "Boa evolução em automação de testes no período." }
+    },
+    "vamosDiretoAoPonto": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Bug reports claros e bem documentados." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Reporting de problemas objetivo e reproduzível." },
+      "gestor": { "criterio": "Mandou bem", "nota": 7, "observacao": "Boa qualidade de comunicação de defeitos e riscos." }
+    },
+    "genteEResultadosAndamJuntos": {
+      "auto": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Preciso entregar mais cobertura de testes no ciclo." },
+      "par": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Cobertura de testes abaixo do que o time esperava." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Resultado parcial no ciclo, com oportunidade de evolução." }
+    }
+  }
+}

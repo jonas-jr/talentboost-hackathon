@@ -1,0 +1,216 @@
+{
+  "employee": "Ana Paula Ferreira",
+  "gaps": [
+    {
+      "competency_name": "Inovação com Foco no Cliente",
+      "competency_key": "inovamosComFocoNoCliente",
+      "average_score": 5.33,
+      "gap_severity": "high",
+      "urgency": "high",
+      "context": "Inovação com Foco no Cliente: nota média 5.3. Há forte consenso entre avaliadores. Avaliação mais crítica veio da gestão.",
+      "evaluator_consensus": 0.84,
+      "development_hints": [
+        "visão_estratégica",
+        "estratégia"
+      ],
+      "key_observations": [
+        "Foca bastante no técnico, pode ampliar visão de negócio.",
+        "Evoluindo na compreensão de impacto para o cliente."
+      ]
+    },
+    {
+      "competency_name": "Comunicação Direta e Objetiva",
+      "competency_key": "vamosDiretoAoPonto",
+      "average_score": 6.33,
+      "gap_severity": "high",
+      "urgency": "high",
+      "context": "Comunicação Direta e Objetiva: nota média 6.3. Há forte consenso entre avaliadores. Avaliação mais crítica veio da gestão.",
+      "evaluator_consensus": 0.84,
+      "development_hints": [],
+      "key_observations": [
+        "Às vezes me perco em detalhes desnecessários.",
+        "Pode melhorar objetividade em status updates."
+      ]
+    },
+    {
+      "competency_name": "Colaboração e Trabalho em Equipe",
+      "competency_key": "jogamosJuntosPelaCompanhia",
+      "average_score": 6.67,
+      "gap_severity": "medium",
+      "urgency": "medium",
+      "context": "Colaboração e Trabalho em Equipe: nota média 6.7. Há forte consenso entre avaliadores. Avaliação mais crítica veio da gestão.",
+      "evaluator_consensus": 0.84,
+      "development_hints": [
+        "colaboração",
+        "liderança"
+      ],
+      "key_observations": [
+        "Busco participar ativamente das cerimônias do time.",
+        "Engaja bem nas discussões de equipe."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "curso_id": "C013",
+      "titulo": "Design Thinking e Inovação",
+      "categoria": "Comportamental",
+      "modalidade": "EAD",
+      "carga_horaria": 8,
+      "obrigatorio": false,
+      "relevance_score": 0.68,
+      "match_reason": "Recomendado para melhorar 'Inovação com Foco no Cliente' — AÇÃO PRIORITÁRIA",
+      "addresses_gaps": [
+        "Inovação com Foco no Cliente"
+      ],
+      "priority": "high",
+      "explanation": {
+        "primary_reason": "gap_match",
+        "gap_addressed": "Inovação com Foco no Cliente",
+        "secondary_reasons": [
+          "Ação prioritária identificada na avaliação",
+          "8 colaboradores com perfil similar completaram este curso",
+          "Nota média de satisfação: 8.2/10"
+        ],
+        "confidence": 0.6836363636363636,
+        "similar_employees_count": 8,
+        "avg_satisfaction": 8.2
+      }
+    },
+    {
+      "curso_id": "C005",
+      "titulo": "Fundamentos de Cloud AWS",
+      "categoria": "Tecnico",
+      "modalidade": "EAD",
+      "carga_horaria": 16,
+      "obrigatorio": false,
+      "relevance_score": 0.65,
+      "match_reason": "Recomendado para melhorar 'Inovação com Foco no Cliente' — AÇÃO PRIORITÁRIA",
+      "addresses_gaps": [
+        "Inovação com Foco no Cliente"
+      ],
+      "priority": "high",
+      "explanation": {
+        "primary_reason": "gap_match",
+        "gap_addressed": "Inovação com Foco no Cliente",
+        "secondary_reasons": [
+          "Ação prioritária identificada na avaliação",
+          "8 colaboradores com perfil similar completaram este curso",
+          "Nota média de satisfação: 8.2/10"
+        ],
+        "confidence": 0.65,
+        "similar_employees_count": 8,
+        "avg_satisfaction": 8.2
+      }
+    },
+    {
+      "curso_id": "C015",
+      "titulo": "Feedback e Desenvolvimento de Equipes",
+      "categoria": "Lideranca",
+      "modalidade": "Presencial",
+      "carga_horaria": 8,
+      "obrigatorio": false,
+      "relevance_score": 0.72,
+      "match_reason": "Recomendado para melhorar 'Colaboração e Trabalho em Equipe'",
+      "addresses_gaps": [
+        "Colaboração e Trabalho em Equipe"
+      ],
+      "priority": "medium",
+      "explanation": {
+        "primary_reason": "gap_match",
+        "gap_addressed": "Colaboração e Trabalho em Equipe",
+        "secondary_reasons": [
+          "15 colaboradores com perfil similar completaram este curso",
+          "Nota média de satisfação: 8.8/10"
+        ],
+        "confidence": 0.725,
+        "similar_employees_count": 15,
+        "avg_satisfaction": 8.8
+      }
+    },
+    {
+      "curso_id": "C012",
+      "titulo": "Metodologias Ágeis e Scrum",
+      "categoria": "Tecnico",
+      "modalidade": "EAD",
+      "carga_horaria": 10,
+      "obrigatorio": false,
+      "relevance_score": 0.65,
+      "match_reason": "Recomendado para melhorar 'Inovação com Foco no Cliente' — AÇÃO PRIORITÁRIA",
+      "addresses_gaps": [
+        "Inovação com Foco no Cliente"
+      ],
+      "priority": "high",
+      "explanation": {
+        "primary_reason": "gap_match",
+        "gap_addressed": "Inovação com Foco no Cliente",
+        "secondary_reasons": [
+          "Ação prioritária identificada na avaliação",
+          "8 colaboradores com perfil similar completaram este curso",
+          "Nota média de satisfação: 8.2/10"
+        ],
+        "confidence": 0.6518181818181819,
+        "similar_employees_count": 8,
+        "avg_satisfaction": 8.2
+      }
+    },
+    {
+      "curso_id": "C007",
+      "titulo": "Docker e Kubernetes",
+      "categoria": "Tecnico",
+      "modalidade": "EAD",
+      "carga_horaria": 12,
+      "obrigatorio": false,
+      "relevance_score": 0.62,
+      "match_reason": "Recomendado para melhorar 'Inovação com Foco no Cliente' — AÇÃO PRIORITÁRIA",
+      "addresses_gaps": [
+        "Inovação com Foco no Cliente"
+      ],
+      "priority": "high",
+      "explanation": {
+        "primary_reason": "gap_match",
+        "gap_addressed": "Inovação com Foco no Cliente",
+        "secondary_reasons": [
+          "Ação prioritária identificada na avaliação",
+          "8 colaboradores com perfil similar completaram este curso",
+          "Nota média de satisfação: 8.2/10"
+        ],
+        "confidence": 0.62,
+        "similar_employees_count": 8,
+        "avg_satisfaction": 8.2
+      }
+    }
+  ],
+  "results": {
+    "gap_coverage": {
+      "total_gaps": 3,
+      "addressed_gaps": 2,
+      "coverage_rate": 0.6666666666666666,
+      "uncovered": [
+        "Comunicação Direta e Objetiva"
+      ]
+    },
+    "quality": {
+      "avg_relevance": 0.664,
+      "diversity": 0.6,
+      "high_priority_count": 4,
+      "with_explanation": 5
+    },
+    "comparison": {
+      "precision": 0.6,
+      "recall": 0.6,
+      "matched": 3,
+      "missing": 2,
+      "extra": 2
+    },
+    "final": {
+      "final_score": 0.6775,
+      "scores": {
+        "coverage": 0.6666666666666666,
+        "relevance": 0.83,
+        "precision": 0.6,
+        "recall": 0.6
+      }
+    }
+  }
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "nome": "Carlos Eduardo Mendes",
+    "cargo": "Analista de Sistemas",
+    "gestor": false,
+    "posicao": "Pleno",
+    "ciclo": "2025",
+    "periodoinicio": "2025-01-01",
+    "periodofim": "2025-12-31",
+    "entregas": {
+      "naoForamEfetivas": { "nota": null },
+      "entregasParciais": { "nota": null },
+      "entregasConsistentes": { "nota": 8 },
+      "entregasAlém": { "nota": null }
+    },
+    "valores": {
+      "jogamosJuntosPelaCompanhia": {
+        "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Colabora bem com o time e participa das decisões." },
+        "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Sempre disposto a ajudar os colegas." },
+        "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Mantém bom espírito de equipe." }
+      },
+      "inovamosComFocoNoCliente": {
+        "auto": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Busca melhorar a visão de cliente nas entregas." },
+        "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Propõe melhorias pensando no usuário." },
+        "gestor": { "criterio": "Mandou bem", "nota": 7, "observacao": "Contribui com ideias para melhorar produtos." }
+      },
+      "temosFomeDeAprender": {
+        "auto": { "criterio": "É referência", "nota": 9, "observacao": "Busca constantemente novos conhecimentos." },
+        "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Compartilha aprendizados com o time." },
+        "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Apresenta evolução técnica contínua." }
+      },
+      "vamosDiretoAoPonto": {
+        "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Comunicação objetiva." },
+        "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Explica bem as soluções." },
+        "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Boa clareza nas reuniões." }
+      },
+      "genteEResultadosAndamJuntos": {
+        "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Entrega resultados sem comprometer o time." },
+        "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Equilibra bem colaboração e entrega." },
+        "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Resultados consistentes." }
+      }
+    }
+  },
+  {
+    "nome": "Fernanda Lopes Ribeiro",
+    "cargo": "UX Designer",
+    "gestor": false,
+    "posicao": "Sênior",
+    "ciclo": "2025",
+    "periodoinicio": "2025-01-01",
+    "periodofim": "2025-12-31",
+    "entregas": {
+      "naoForamEfetivas": { "nota": null },
+      "entregasParciais": { "nota": 5 },
+      "entregasConsistentes": { "nota": null },
+      "entregasAlém": { "nota": null }
+    },
+    "valores": {
+      "jogamosJuntosPelaCompanhia": {
+        "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Boa colaboração com produto e engenharia." },
+        "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Facilita alinhamentos entre áreas." },
+        "gestor": { "criterio": "Mandou bem", "nota": 7, "observacao": "Boa integração com times." }
+      },
+      "inovamosComFocoNoCliente": {
+        "auto": { "criterio": "É referência", "nota": 9, "observacao": "Grande foco na experiência do usuário." },
+        "par": { "criterio": "É referência", "nota": 9, "observacao": "Sempre traz a perspectiva do cliente." },
+        "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Entrega soluções centradas no usuário." }
+      },
+      "temosFomeDeAprender": {
+        "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Participa de cursos e workshops." },
+        "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Compartilha novidades de design." },
+        "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Busca evolução constante." }
+      },
+      "vamosDiretoAoPonto": {
+        "auto": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Pode simplificar algumas apresentações." },
+        "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Clareza nas explicações." },
+        "gestor": { "criterio": "Mandou bem", "nota": 7, "observacao": "Comunicação eficiente." }
+      },
+      "genteEResultadosAndamJuntos": {
+        "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Entrega valor para o produto." },
+        "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Boa parceria no desenvolvimento." },
+        "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Resultados consistentes." }
+      }
+    }
+  },
+  {
+    "nome": "Ricardo Alves Nogueira",
+    "cargo": "Gerente de Engenharia",
+    "gestor": true,
+    "posicao": "Liderança",
+    "ciclo": "2025",
+    "periodoinicio": "2025-01-01",
+    "periodofim": "2025-12-31",
+    "entregas": {
+      "naoForamEfetivas": { "nota": null },
+      "entregasParciais": { "nota": null },
+      "entregasConsistentes": { "nota": null },
+      "entregasAlém": { "nota": 9 }
+    },
+    "valores": {
+      "jogamosJuntosPelaCompanhia": {
+        "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Incentiva colaboração entre times." },
+        "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Facilita integração entre áreas." },
+        "gestor": { "criterio": "É referência", "nota": 9, "observacao": "Exemplo de liderança colaborativa." }
+      },
+      "inovamosComFocoNoCliente": {
+        "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Estimula soluções voltadas ao cliente." },
+        "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Promove melhorias contínuas." },
+        "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Direciona equipe para impacto no cliente." }
+      },
+      "temosFomeDeAprender": {
+        "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Estimula aprendizado na equipe." },
+        "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Compartilha conhecimento." },
+        "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Promove desenvolvimento contínuo." }
+      },
+      "vamosDiretoAoPonto": {
+        "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Comunicação clara com o time." },
+        "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Objetividade nas reuniões." },
+        "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Direcionamento claro." }
+      },
+      "genteEResultadosAndamJuntos": {
+        "auto": { "criterio": "É referência", "nota": 9, "observacao": "Equilibra resultados e desenvolvimento do time." },
+        "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Valoriza as pessoas da equipe." },
+        "gestor": { "criterio": "É referência", "nota": 9, "observacao": "Alta entrega com desenvolvimento de pessoas." }
+      }
+    }
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "nome": "Isabel Carvalho Prado",
+  "cargo": "Scrum Master",
+  "gestor": false,
+  "posicao": "Sênior",
+  "ciclo": "2025",
+  "periodoinicio": "2025-01-01",
+  "periodofim": "2025-12-31",
+  "entregas": {
+    "naoForamEfetivas": { "nota": null },
+    "entregasParciais": { "nota": null },
+    "entregasConsistentes": { "nota": 8 },
+    "entregasAlém": { "nota": null }
+  },
+  "valores": {
+    "jogamosJuntosPelaCompanhia": {
+      "auto": { "criterio": "É referência", "nota": 9, "observacao": "Facilito a colaboração entre todos os membros do time." },
+      "par": { "criterio": "É referência", "nota": 9, "observacao": "Peça fundamental na integração do time." },
+      "gestor": { "criterio": "É referência", "nota": 9, "observacao": "Cultura de colaboração construída pela sua atuação." }
+    },
+    "inovamosComFocoNoCliente": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Melhoro continuamente os processos para gerar mais valor." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Cerimônias cada vez mais eficientes e focadas." },
+      "gestor": { "criterio": "Mandou bem", "nota": 7, "observacao": "Boas iniciativas de melhoria de processo no time." }
+    },
+    "temosFomeDeAprender": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Atualizo práticas ágeis constantemente." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Traz novas abordagens de agilidade para o time." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Evolução contínua em práticas ágeis avançadas." }
+    },
+    "vamosDiretoAoPonto": {
+      "auto": { "criterio": "É referência", "nota": 9, "observacao": "Facilitações objetivas, sempre com outcome claro." },
+      "par": { "criterio": "É referência", "nota": 9, "observacao": "Reuniões nunca extrapolam o timebox." },
+      "gestor": { "criterio": "É referência", "nota": 9, "observacao": "Referência em facilitação objetiva e eficiente." }
+    },
+    "genteEResultadosAndamJuntos": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Cuido do bem-estar do time enquanto aumentamos a velocidade." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Time mais saudável e produtivo com sua atuação." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Boa gestão de saúde do time com resultados consistentes." }
+    }
+  }
+}

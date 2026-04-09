@@ -1,0 +1,42 @@
+{
+  "nome": "Renata Gomes Vasconcelos",
+  "cargo": "Analista de Customer Success",
+  "gestor": false,
+  "posicao": "Pleno",
+  "ciclo": "2025",
+  "periodoinicio": "2025-01-01",
+  "periodofim": "2025-12-31",
+  "entregas": {
+    "naoForamEfetivas": { "nota": 4 },
+    "entregasParciais": { "nota": null },
+    "entregasConsistentes": { "nota": null },
+    "entregasAlém": { "nota": null }
+  },
+  "valores": {
+    "jogamosJuntosPelaCompanhia": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Procuro colaborar com produto para resolver os clientes." },
+      "par": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Dificuldade em trabalhar em conjunto com o time de produto." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Atritos frequentes com times internos que impactam entregas." }
+    },
+    "inovamosComFocoNoCliente": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Estou sempre próxima dos clientes e dos seus problemas." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Conhecimento profundo da dor dos clientes." },
+      "gestor": { "criterio": "Mandou bem", "nota": 6, "observacao": "Boa escuta do cliente, mas tradução interna pode melhorar." }
+    },
+    "temosFomeDeAprender": {
+      "auto": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Reconheço que poderia me atualizar mais nas ferramentas." },
+      "par": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Pouco engajamento em capacitações oferecidas." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Evolução abaixo do esperado nas competências de CS." }
+    },
+    "vamosDiretoAoPonto": {
+      "auto": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Às vezes me perco em detalhes ao reportar problemas de cliente." },
+      "par": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Escalas de cliente sem contexto suficiente para o time técnico." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Precisa melhorar a clareza e completude nos reports de cliente." }
+    },
+    "genteEResultadosAndamJuntos": {
+      "auto": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Sei que meus resultados este ciclo ficaram abaixo do esperado." },
+      "par": { "criterio": "Pode melhorar", "nota": 4, "observacao": "Tensões no relacionamento impactaram entregas do time." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 4, "observacao": "Resultado e relacionamento foram os pontos mais críticos do ciclo." }
+    }
+  }
+}

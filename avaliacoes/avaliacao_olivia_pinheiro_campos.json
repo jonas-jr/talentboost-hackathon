@@ -1,0 +1,42 @@
+{
+  "nome": "Olivia Pinheiro Campos",
+  "cargo": "Machine Learning Engineer",
+  "gestor": false,
+  "posicao": "Sênior",
+  "ciclo": "2025",
+  "periodoinicio": "2025-01-01",
+  "periodofim": "2025-12-31",
+  "entregas": {
+    "naoForamEfetivas": { "nota": null },
+    "entregasParciais": { "nota": null },
+    "entregasConsistentes": { "nota": null },
+    "entregasAlém": { "nota": 10 }
+  },
+  "valores": {
+    "jogamosJuntosPelaCompanhia": {
+      "auto": { "criterio": "É referência", "nota": 9, "observacao": "Colaboro com produto, dados e engenharia em projetos de IA." },
+      "par": { "criterio": "É referência", "nota": 9, "observacao": "Peça central na integração de IA em toda a plataforma." },
+      "gestor": { "criterio": "É referência", "nota": 9, "observacao": "Referência de colaboração em iniciativas de IA." }
+    },
+    "inovamosComFocoNoCliente": {
+      "auto": { "criterio": "É referência", "nota": 10, "observacao": "Modelos que transformam a experiência do usuário." },
+      "par": { "criterio": "É referência", "nota": 10, "observacao": "Inovação em IA com impacto direto e mensurável." },
+      "gestor": { "criterio": "É referência", "nota": 10, "observacao": "Entrega mais inovadora em IA do ciclo com alto impacto." }
+    },
+    "temosFomeDeAprender": {
+      "auto": { "criterio": "É referência", "nota": 10, "observacao": "Aplico pesquisa de ponta e lidero grupos de estudo." },
+      "par": { "criterio": "É referência", "nota": 10, "observacao": "Principal referência técnica em ML da empresa." },
+      "gestor": { "criterio": "É referência", "nota": 10, "observacao": "Eleva o nível técnico da organização em IA/ML." }
+    },
+    "vamosDiretoAoPonto": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Apresento resultados de experimentos com clareza." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Consegue tornar conceitos complexos de ML acessíveis." },
+      "gestor": { "criterio": "Mandou bem", "nota": 9, "observacao": "Excelente comunicação de resultados técnicos para negócio." }
+    },
+    "genteEResultadosAndamJuntos": {
+      "auto": { "criterio": "É referência", "nota": 10, "observacao": "Elevo o time enquanto entrego resultados excepcionais." },
+      "par": { "criterio": "É referência", "nota": 10, "observacao": "Alta performance individual com multiplicação de impacto." },
+      "gestor": { "criterio": "É referência", "nota": 10, "observacao": "Melhor resultado individual do ciclo com alto impacto de equipe." }
+    }
+  }
+}

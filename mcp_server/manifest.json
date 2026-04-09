@@ -1,0 +1,135 @@
+{
+  "name": "talent-boost-server",
+  "version": "1.0.0",
+  "description": "Servidor MCP para análise inteligente de avaliações de desempenho e recomendação personalizada de treinamentos",
+  "author": "LG TalentBoost Team",
+  "license": "Proprietary",
+  "protocol": "mcp",
+  "transport": "stdio",
+  "capabilities": {
+    "tools": true,
+    "resources": false,
+    "prompts": false
+  },
+  "tools": [
+    {
+      "name": "get_employee_evaluation",
+      "description": "Busca a avaliação de desempenho de um colaborador",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "employee_name": {
+            "type": "string",
+            "description": "Nome completo do colaborador"
+          }
+        },
+        "required": ["employee_name"]
+      },
+      "output_type": "application/json"
+    },
+    {
+      "name": "get_employee_profile",
+      "description": "Busca dados cadastrais de um colaborador",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "employee_name": {
+            "type": "string",
+            "description": "Nome completo do colaborador"
+          }
+        },
+        "required": ["employee_name"]
+      },
+      "output_type": "application/json"
+    },
+    {
+      "name": "analyze_competency_gaps",
+      "description": "Analisa gaps de competências usando análise de sentimentos e identificação de áreas prioritárias",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "employee_name": {
+            "type": "string",
+            "description": "Nome completo do colaborador"
+          }
+        },
+        "required": ["employee_name"]
+      },
+      "output_type": "application/json"
+    },
+    {
+      "name": "recommend_training",
+      "description": "Gera recomendações personalizadas de treinamentos baseadas em gaps e perfil do colaborador",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "employee_name": {
+            "type": "string",
+            "description": "Nome completo do colaborador"
+          },
+          "top_n": {
+            "type": "integer",
+            "description": "Número de recomendações a retornar",
+            "default": 5
+          },
+          "exclude_completed": {
+            "type": "boolean",
+            "description": "Se true, exclui cursos já concluídos",
+            "default": true
+          }
+        },
+        "required": ["employee_name"]
+      },
+      "output_type": "application/json"
+    },
+    {
+      "name": "get_available_courses",
+      "description": "Lista todos os cursos disponíveis no LMS",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string",
+            "description": "Categoria para filtrar (opcional)"
+          }
+        }
+      },
+      "output_type": "application/json"
+    },
+    {
+      "name": "get_employee_training_history",
+      "description": "Busca histórico completo de treinamentos de um colaborador",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "employee_name": {
+            "type": "string",
+            "description": "Nome completo do colaborador"
+          }
+        },
+        "required": ["employee_name"]
+      },
+      "output_type": "application/json"
+    }
+  ],
+  "configuration": {
+    "environment_variables": {
+      "TALENT_BOOST_DATA_DIR": {
+        "description": "Caminho para o diretório contendo os dados de avaliações, cadastros e treinamentos",
+        "required": false,
+        "default": "."
+      }
+    }
+  },
+  "installation": {
+    "command": "python -m lg_ia_hub.app.modules.deep_agent.test_htn.mcp_server.talent_boost_server",
+    "requirements": [
+      "mcp>=0.1.0"
+    ]
+  },
+  "metadata": {
+    "tags": ["hr", "training", "performance-evaluation", "ai", "recommendation-system"],
+    "category": "human-resources",
+    "integration_type": "standalone"
+  }
+}

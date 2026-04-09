@@ -1,0 +1,104 @@
+{
+  "colaboradores": [
+    {
+      "colaboradorId": "T019",
+      "nome": "Samuel Pereira Esteves",
+      "cargo": "Desenvolvedor Backend",
+      "departamento": "Tecnologia",
+      "gestorId": "T005",
+      "dataAdmissao": "2024-11-04",
+      "nivel": "Junior",
+      "status": "Ativo"
+    }
+  ],
+
+  "cursos": [
+    {
+      "cursoID": "C001",
+      "titulo": "Segurança da Informação",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 4,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C002",
+      "titulo": "LGPD e Privacidade de Dados",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 3,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C003",
+      "titulo": "Prevenção ao Assédio e Discriminação",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 2,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C006",
+      "titulo": "Git e Versionamento de Código",
+      "categoria": "Tecnico",
+      "modalidade": "EAD",
+      "cargaHoraria": 8,
+      "obrigatorio": false,
+      "notaMinima": 6
+    }
+  ],
+
+  "matriculas": [
+    {
+      "matriculaId": "EN001",
+      "colaboradorId": "T019",
+      "cursoID": "C001",
+      "dataInicio": "2024-11-18",
+      "dataFim": null,
+      "status": "Em Andamento",
+      "progresso": 70
+    },
+    {
+      "matriculaId": "EN002",
+      "colaboradorId": "T019",
+      "cursoID": "C002",
+      "dataInicio": "2024-11-18",
+      "dataFim": null,
+      "status": "Pendente",
+      "progresso": 0
+    },
+    {
+      "matriculaId": "EN003",
+      "colaboradorId": "T019",
+      "cursoID": "C003",
+      "dataInicio": "2024-11-18",
+      "dataFim": null,
+      "status": "Pendente",
+      "progresso": 0
+    },
+    {
+      "matriculaId": "EN004",
+      "colaboradorId": "T019",
+      "cursoID": "C006",
+      "dataInicio": "2024-12-02",
+      "dataFim": "2024-12-10",
+      "status": "Concluido",
+      "progresso": 100
+    }
+  ],
+
+  "resultados": [
+    {
+      "resultadoId": "R001",
+      "matriculaId": "EN004",
+      "nota": 7.0,
+      "notaMinima": 6,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2024-12-10"
+    }
+  ]
+}

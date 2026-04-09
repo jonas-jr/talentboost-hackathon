@@ -1,0 +1,42 @@
+{
+  "nome": "Marina Souza Guimarães",
+  "cargo": "Product Designer",
+  "gestor": false,
+  "posicao": "Pleno",
+  "ciclo": "2025",
+  "periodoinicio": "2025-01-01",
+  "periodofim": "2025-12-31",
+  "entregas": {
+    "naoForamEfetivas": { "nota": null },
+    "entregasParciais": { "nota": null },
+    "entregasConsistentes": { "nota": 8 },
+    "entregasAlém": { "nota": null }
+  },
+  "valores": {
+    "jogamosJuntosPelaCompanhia": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Trabalho integrada com produto e engenharia no dia a dia." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Facilita alinhamentos visuais entre áreas." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Ótima integração com squads de produto e engenharia." }
+    },
+    "inovamosComFocoNoCliente": {
+      "auto": { "criterio": "É referência", "nota": 9, "observacao": "Conduzo pesquisas de usuário e transformo em design." },
+      "par": { "criterio": "É referência", "nota": 9, "observacao": "Sempre parte da perspectiva do usuário nas soluções." },
+      "gestor": { "criterio": "É referência", "nota": 9, "observacao": "Design centrado no usuário de forma exemplar." }
+    },
+    "temosFomeDeAprender": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Participo de eventos e cursos de design continuamente." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Traz tendências e referências de design para o time." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Evolução consistente em habilidades de UX e pesquisa." }
+    },
+    "vamosDiretoAoPonto": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Apresentações de design objetivas com foco no problema." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Design critiques focados e produtivos." },
+      "gestor": { "criterio": "Mandou bem", "nota": 7, "observacao": "Boa objetividade nas apresentações de solução." }
+    },
+    "genteEResultadosAndamJuntos": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Entrego designs de alta qualidade dentro dos ciclos." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Entregas consistentes e boa parceria no desenvolvimento." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Alta qualidade de entrega com bom ritmo de trabalho." }
+    }
+  }
+}

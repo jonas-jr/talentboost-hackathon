@@ -1,0 +1,122 @@
+{
+  "colaboradores": [
+    {
+      "colaboradorId": "T006",
+      "nome": "Felipe Augusto Nunes",
+      "cargo": "Desenvolvedor Frontend",
+      "departamento": "Tecnologia",
+      "gestorId": "T005",
+      "dataAdmissao": "2024-08-05",
+      "nivel": "Junior",
+      "status": "Ativo"
+    }
+  ],
+
+  "cursos": [
+    {
+      "cursoID": "C001",
+      "titulo": "Segurança da Informação",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 4,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C002",
+      "titulo": "LGPD e Privacidade de Dados",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 3,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C003",
+      "titulo": "Prevenção ao Assédio e Discriminação",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 2,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C006",
+      "titulo": "Git e Versionamento de Código",
+      "categoria": "Tecnico",
+      "modalidade": "EAD",
+      "cargaHoraria": 8,
+      "obrigatorio": false,
+      "notaMinima": 6
+    },
+    {
+      "cursoID": "C009",
+      "titulo": "React e Frontend Moderno",
+      "categoria": "Tecnico",
+      "modalidade": "EAD",
+      "cargaHoraria": 16,
+      "obrigatorio": false,
+      "notaMinima": 7
+    }
+  ],
+
+  "matriculas": [
+    {
+      "matriculaId": "EN001",
+      "colaboradorId": "T006",
+      "cursoID": "C001",
+      "dataInicio": "2024-09-02",
+      "dataFim": null,
+      "status": "Em Andamento",
+      "progresso": 50
+    },
+    {
+      "matriculaId": "EN002",
+      "colaboradorId": "T006",
+      "cursoID": "C002",
+      "dataInicio": "2024-09-02",
+      "dataFim": null,
+      "status": "Pendente",
+      "progresso": 0
+    },
+    {
+      "matriculaId": "EN003",
+      "colaboradorId": "T006",
+      "cursoID": "C003",
+      "dataInicio": "2024-09-02",
+      "dataFim": null,
+      "status": "Pendente",
+      "progresso": 0
+    },
+    {
+      "matriculaId": "EN004",
+      "colaboradorId": "T006",
+      "cursoID": "C006",
+      "dataInicio": "2024-09-10",
+      "dataFim": "2024-09-18",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN005",
+      "colaboradorId": "T006",
+      "cursoID": "C009",
+      "dataInicio": "2024-10-07",
+      "dataFim": null,
+      "status": "Em Andamento",
+      "progresso": 30
+    }
+  ],
+
+  "resultados": [
+    {
+      "resultadoId": "R001",
+      "matriculaId": "EN004",
+      "nota": 6.5,
+      "notaMinima": 6,
+      "aprovado": true,
+      "tentativas": 2,
+      "dataAvaliacao": "2024-09-18"
+    }
+  ]
+}

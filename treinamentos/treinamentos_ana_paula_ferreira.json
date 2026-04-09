@@ -1,0 +1,149 @@
+{
+  "colaboradores": [
+    {
+      "colaboradorId": "T001",
+      "nome": "Ana Paula Ferreira",
+      "cargo": "Desenvolvedora Backend",
+      "departamento": "Tecnologia",
+      "gestorId": "T005",
+      "dataAdmissao": "2024-03-10",
+      "nivel": "Junior",
+      "status": "Ativo"
+    }
+  ],
+
+  "cursos": [
+    {
+      "cursoID": "C001",
+      "titulo": "Segurança da Informação",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 4,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C002",
+      "titulo": "LGPD e Privacidade de Dados",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 3,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C003",
+      "titulo": "Prevenção ao Assédio e Discriminação",
+      "categoria": "Compliance",
+      "modalidade": "EAD",
+      "cargaHoraria": 2,
+      "obrigatorio": true,
+      "notaMinima": 7
+    },
+    {
+      "cursoID": "C006",
+      "titulo": "Git e Versionamento de Código",
+      "categoria": "Tecnico",
+      "modalidade": "EAD",
+      "cargaHoraria": 8,
+      "obrigatorio": false,
+      "notaMinima": 6
+    },
+    {
+      "cursoID": "C005",
+      "titulo": "Fundamentos de Cloud AWS",
+      "categoria": "Tecnico",
+      "modalidade": "EAD",
+      "cargaHoraria": 16,
+      "obrigatorio": false,
+      "notaMinima": 7
+    }
+  ],
+
+  "matriculas": [
+    {
+      "matriculaId": "EN001",
+      "colaboradorId": "T001",
+      "cursoID": "C001",
+      "dataInicio": "2024-04-01",
+      "dataFim": "2024-04-01",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN002",
+      "colaboradorId": "T001",
+      "cursoID": "C002",
+      "dataInicio": "2024-04-05",
+      "dataFim": "2024-04-05",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN003",
+      "colaboradorId": "T001",
+      "cursoID": "C003",
+      "dataInicio": "2024-04-08",
+      "dataFim": "2024-04-08",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN004",
+      "colaboradorId": "T001",
+      "cursoID": "C006",
+      "dataInicio": "2024-05-10",
+      "dataFim": "2024-05-15",
+      "status": "Concluido",
+      "progresso": 100
+    },
+    {
+      "matriculaId": "EN005",
+      "colaboradorId": "T001",
+      "cursoID": "C005",
+      "dataInicio": "2025-02-03",
+      "dataFim": null,
+      "status": "Em Andamento",
+      "progresso": 60
+    }
+  ],
+
+  "resultados": [
+    {
+      "resultadoId": "R001",
+      "matriculaId": "EN001",
+      "nota": 8.0,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2024-04-01"
+    },
+    {
+      "resultadoId": "R002",
+      "matriculaId": "EN002",
+      "nota": 7.5,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2024-04-05"
+    },
+    {
+      "resultadoId": "R003",
+      "matriculaId": "EN003",
+      "nota": 8.5,
+      "notaMinima": 7,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2024-04-08"
+    },
+    {
+      "resultadoId": "R004",
+      "matriculaId": "EN004",
+      "nota": 9.0,
+      "notaMinima": 6,
+      "aprovado": true,
+      "tentativas": 1,
+      "dataAvaliacao": "2024-05-15"
+    }
+  ]
+}

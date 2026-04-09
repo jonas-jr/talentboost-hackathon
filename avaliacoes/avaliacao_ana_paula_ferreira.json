@@ -1,0 +1,42 @@
+{
+  "nome": "Ana Paula Ferreira",
+  "cargo": "Desenvolvedora Backend",
+  "gestor": false,
+  "posicao": "Júnior",
+  "ciclo": "2025",
+  "periodoinicio": "2025-01-01",
+  "periodofim": "2025-12-31",
+  "entregas": {
+    "naoForamEfetivas": { "nota": null },
+    "entregasParciais": { "nota": null },
+    "entregasConsistentes": { "nota": 7 },
+    "entregasAlém": { "nota": null }
+  },
+  "valores": {
+    "jogamosJuntosPelaCompanhia": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Busco participar ativamente das cerimônias do time." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Engaja bem nas discussões de equipe." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Pode ampliar a participação em iniciativas cross-equipe." }
+    },
+    "inovamosComFocoNoCliente": {
+      "auto": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Ainda desenvolvendo visão de produto." },
+      "par": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Foca bastante no técnico, pode ampliar visão de negócio." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Evoluindo na compreensão de impacto para o cliente." }
+    },
+    "temosFomeDeAprender": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Estou investindo em cursos e projetos pessoais." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Sempre buscando aprender novas tecnologias." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Demonstra evolução técnica consistente para o nível." }
+    },
+    "vamosDiretoAoPonto": {
+      "auto": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Às vezes me perco em detalhes desnecessários." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Consegue comunicar impedimentos com clareza." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Pode melhorar objetividade em status updates." }
+    },
+    "genteEResultadosAndamJuntos": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Cuido do relacionamento enquanto entrego." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Colaborativa e entrega no prazo." },
+      "gestor": { "criterio": "Mandou bem", "nota": 7, "observacao": "Boa evolução em equilíbrio de relacionamento e resultado." }
+    }
+  }
+}

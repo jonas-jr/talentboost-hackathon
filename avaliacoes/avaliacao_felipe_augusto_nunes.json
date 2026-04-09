@@ -1,0 +1,42 @@
+{
+  "nome": "Felipe Augusto Nunes",
+  "cargo": "Desenvolvedor Frontend",
+  "gestor": false,
+  "posicao": "Júnior",
+  "ciclo": "2025",
+  "periodoinicio": "2025-01-01",
+  "periodofim": "2025-12-31",
+  "entregas": {
+    "naoForamEfetivas": { "nota": 3 },
+    "entregasParciais": { "nota": null },
+    "entregasConsistentes": { "nota": null },
+    "entregasAlém": { "nota": null }
+  },
+  "valores": {
+    "jogamosJuntosPelaCompanhia": {
+      "auto": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Reconheço que preciso me engajar mais com o time." },
+      "par": { "criterio": "Pode melhorar", "nota": 4, "observacao": "Trabalha de forma isolada, pouco colaborativo nas dailies." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 4, "observacao": "Dificuldade em pedir ajuda e compartilhar bloqueios." }
+    },
+    "inovamosComFocoNoCliente": {
+      "auto": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Ainda focado em aprender o básico do stack." },
+      "par": { "criterio": "Pode melhorar", "nota": 4, "observacao": "Pouca iniciativa de melhoria além do que é pedido." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 4, "observacao": "Não demonstra visão de impacto no cliente ainda." }
+    },
+    "temosFomeDeAprender": {
+      "auto": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Tenho dificuldade em me organizar para estudar." },
+      "par": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Não busca atualização por conta própria." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Evolução técnica abaixo do esperado para o período." }
+    },
+    "vamosDiretoAoPonto": {
+      "auto": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Ainda tenho dificuldade em comunicar bloqueios rapidamente." },
+      "par": { "criterio": "Pode melhorar", "nota": 4, "observacao": "Demora para comunicar impedimentos, impactando o time." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 4, "observacao": "Precisa melhorar comunicação proativa de riscos e bloqueios." }
+    },
+    "genteEResultadosAndamJuntos": {
+      "auto": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Preciso melhorar a consistência das minhas entregas." },
+      "par": { "criterio": "Pode melhorar", "nota": 4, "observacao": "Entregas frequentemente incompletas ou com bugs." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 4, "observacao": "Resultado abaixo do esperado, plano de desenvolvimento em curso." }
+    }
+  }
+}

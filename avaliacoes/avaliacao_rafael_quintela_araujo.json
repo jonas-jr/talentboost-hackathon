@@ -1,0 +1,42 @@
+{
+  "nome": "Rafael Quintela Araujo",
+  "cargo": "SRE Engineer",
+  "gestor": false,
+  "posicao": "Sênior",
+  "ciclo": "2025",
+  "periodoinicio": "2025-01-01",
+  "periodofim": "2025-12-31",
+  "entregas": {
+    "naoForamEfetivas": { "nota": null },
+    "entregasParciais": { "nota": null },
+    "entregasConsistentes": { "nota": 8 },
+    "entregasAlém": { "nota": null }
+  },
+  "valores": {
+    "jogamosJuntosPelaCompanhia": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Trabalho bem com todos os times para garantir confiabilidade." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Parceiro essencial em todos os projetos críticos." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Boa integração com squads de produto e dados." }
+    },
+    "inovamosComFocoNoCliente": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Melhoro a confiabilidade para reduzir impacto em usuários." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Iniciativas de SRE com impacto direto na experiência." },
+      "gestor": { "criterio": "Mandou bem", "nota": 7, "observacao": "Boas iniciativas de melhoria de disponibilidade e latência." }
+    },
+    "temosFomeDeAprender": {
+      "auto": { "criterio": "É referência", "nota": 9, "observacao": "Estudo práticas de SRE e plataforma constantemente." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Compartilha runbooks e aprendizados de incidentes." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Evolução técnica sólida em práticas de confiabilidade." }
+    },
+    "vamosDiretoAoPonto": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Post-mortems claros e comunicação de incidentes eficiente." },
+      "par": { "criterio": "É referência", "nota": 9, "observacao": "Comunicação exemplar em situações de incidente." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Ótima comunicação em gestão de incidentes críticos." }
+    },
+    "genteEResultadosAndamJuntos": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Entrego melhorias de confiabilidade mantendo boa parceria." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Confiável e consistente, ótimo parceiro em crises." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Alta confiabilidade de entrega com bom espírito de equipe." }
+    }
+  }
+}

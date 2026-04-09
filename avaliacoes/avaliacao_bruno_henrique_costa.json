@@ -1,0 +1,42 @@
+{
+  "nome": "Bruno Henrique Costa",
+  "cargo": "Engenheiro de Dados",
+  "gestor": false,
+  "posicao": "Pleno",
+  "ciclo": "2025",
+  "periodoinicio": "2025-01-01",
+  "periodofim": "2025-12-31",
+  "entregas": {
+    "naoForamEfetivas": { "nota": null },
+    "entregasParciais": { "nota": null },
+    "entregasConsistentes": { "nota": null },
+    "entregasAlém": { "nota": 9 }
+  },
+  "valores": {
+    "jogamosJuntosPelaCompanhia": {
+      "auto": { "criterio": "É referência", "nota": 9, "observacao": "Contribuo com outras squads em dúvidas de dados." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Muito solícito quando outros times precisam de apoio." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Ótima postura colaborativa inter-squads." }
+    },
+    "inovamosComFocoNoCliente": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Desenvolvo soluções de dados pensando no impacto final." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Propõe pipelines que geram valor real de negócio." },
+      "gestor": { "criterio": "Mandou bem", "nota": 9, "observacao": "Entregas de dados com alto impacto em produto." }
+    },
+    "temosFomeDeAprender": {
+      "auto": { "criterio": "É referência", "nota": 9, "observacao": "Sempre explorando ferramentas novas de engenharia de dados." },
+      "par": { "criterio": "É referência", "nota": 9, "observacao": "Compartilha tech talks e referências com o time." },
+      "gestor": { "criterio": "É referência", "nota": 9, "observacao": "Referência técnica na área de dados da empresa." }
+    },
+    "vamosDiretoAoPonto": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Documentações objetivas e reuniões produtivas." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Explica soluções complexas com clareza." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Ótima objetividade técnica nas apresentações." }
+    },
+    "genteEResultadosAndamJuntos": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Prezo pelo crescimento conjunto do time." },
+      "par": { "criterio": "É referência", "nota": 9, "observacao": "Eleva o nível técnico do time enquanto entrega." },
+      "gestor": { "criterio": "É referência", "nota": 9, "observacao": "Alta performance com forte desenvolvimento de pares." }
+    }
+  }
+}

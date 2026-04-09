@@ -1,0 +1,42 @@
+{
+  "nome": "Diego Fonseca Lima",
+  "cargo": "DevOps Engineer",
+  "gestor": false,
+  "posicao": "Pleno",
+  "ciclo": "2025",
+  "periodoinicio": "2025-01-01",
+  "periodofim": "2025-12-31",
+  "entregas": {
+    "naoForamEfetivas": { "nota": null },
+    "entregasParciais": { "nota": null },
+    "entregasConsistentes": { "nota": 8 },
+    "entregasAlém": { "nota": null }
+  },
+  "valores": {
+    "jogamosJuntosPelaCompanhia": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Dou suporte a todas as squads em questões de infraestrutura." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Muito acessível e prestativo para ajudar." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Excelente postura de suporte cross-equipe." }
+    },
+    "inovamosComFocoNoCliente": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Busco melhorar a experiência de deploy das equipes." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Automações que melhoram produtividade do time." },
+      "gestor": { "criterio": "Mandou bem", "nota": 7, "observacao": "Iniciativas de melhoria de CI/CD com impacto real." }
+    },
+    "temosFomeDeAprender": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Estudo certificações de cloud constantemente." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Traz conhecimento de novas ferramentas de plataforma." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Atualização técnica contínua em cloud e SRE." }
+    },
+    "vamosDiretoAoPonto": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Comunicação técnica clara e documentada." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Runbooks bem escritos e objetivos." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Boa comunicação de incidentes e resolução." }
+    },
+    "genteEResultadosAndamJuntos": {
+      "auto": { "criterio": "Mandou bem", "nota": 8, "observacao": "Equilibro entregas técnicas com suporte ao time." },
+      "par": { "criterio": "Mandou bem", "nota": 8, "observacao": "Confiável e consistente nas entregas." },
+      "gestor": { "criterio": "Mandou bem", "nota": 8, "observacao": "Alta disponibilidade e entregas sólidas." }
+    }
+  }
+}

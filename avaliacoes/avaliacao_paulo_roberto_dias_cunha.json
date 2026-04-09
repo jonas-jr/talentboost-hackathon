@@ -1,0 +1,42 @@
+{
+  "nome": "Paulo Roberto Dias Cunha",
+  "cargo": "Analista de Sistemas",
+  "gestor": false,
+  "posicao": "Pleno",
+  "ciclo": "2025",
+  "periodoinicio": "2025-01-01",
+  "periodofim": "2025-12-31",
+  "entregas": {
+    "naoForamEfetivas": { "nota": null },
+    "entregasParciais": { "nota": 5 },
+    "entregasConsistentes": { "nota": null },
+    "entregasAlém": { "nota": null }
+  },
+  "valores": {
+    "jogamosJuntosPelaCompanhia": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Procuro colaborar com meus pares nas análises." },
+      "par": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Pode se engajar mais em discussões coletivas." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Participação passiva nas iniciativas de time." }
+    },
+    "inovamosComFocoNoCliente": {
+      "auto": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Entendo o cliente mas preciso traduzir melhor para as análises." },
+      "par": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Análises técnicas boas, mas pouco orientadas ao usuário." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Precisa desenvolver mais a visão de cliente nas entregas." }
+    },
+    "temosFomeDeAprender": {
+      "auto": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Estou buscando me atualizar mais após o feedback do semestre." },
+      "par": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Pouca iniciativa de aprendizado além do necessário." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Evolução técnica aquém do esperado para o nível pleno." }
+    },
+    "vamosDiretoAoPonto": {
+      "auto": { "criterio": "Mandou bem", "nota": 7, "observacao": "Documentações técnicas completas e organizadas." },
+      "par": { "criterio": "Mandou bem", "nota": 7, "observacao": "Clareza na documentação de análises." },
+      "gestor": { "criterio": "Mandou bem", "nota": 7, "observacao": "Ponto positivo: boa qualidade na documentação técnica." }
+    },
+    "genteEResultadosAndamJuntos": {
+      "auto": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Preciso melhorar o ritmo de entrega no ciclo." },
+      "par": { "criterio": "Pode melhorar", "nota": 6, "observacao": "Entregas parciais, com atrasos em algumas análises." },
+      "gestor": { "criterio": "Pode melhorar", "nota": 5, "observacao": "Resultado abaixo do esperado para o nível pleno no ciclo." }
+    }
+  }
+}
