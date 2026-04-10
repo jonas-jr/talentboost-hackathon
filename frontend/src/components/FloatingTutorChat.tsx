@@ -78,9 +78,9 @@ export function FloatingTutorChat({
         </button>
       )}
 
-      {/* Chat Expandido */}
-      {isOpen && !isMinimized && (
-        <div className="fixed bottom-6 right-6 z-50 w-96 h-[600px] bg-white rounded-2xl shadow-2xl flex flex-col overflow-hidden border border-gray-200">
+      {/* Chat Expandido (mantido montado, escondido via CSS para preservar estado) */}
+      {isOpen && (
+        <div className={`fixed bottom-6 right-6 z-50 w-96 h-[600px] bg-white rounded-2xl shadow-2xl flex flex-col overflow-hidden border border-gray-200 ${isMinimized ? 'hidden' : ''}`}>
           {/* Header com controles */}
           <div className="flex items-center justify-between bg-gradient-to-r from-primary-600 to-primary-800 text-white p-3">
             <div className="flex items-center space-x-2">
