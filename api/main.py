@@ -600,13 +600,22 @@ def start_course_assistant_session(request: CourseAssistantStartRequest):
         timestamp=datetime.now().isoformat(),
     )
 
-    # Busca informações do curso
-    course_info = next(
-        (c for c in ALL_COURSES if c.get("cursoID") == request.curso_id), None
-    )
-
-    if not course_info:
-        raise HTTPException(status_code=404, detail=f"Curso {request.curso_id} não encontrado")
+    # Busca informações do curso (modo geral se curso_id == "general")
+    if request.curso_id == "general":
+        course_info = {
+            "cursoID": "general",
+            "titulo": "Assistente TalentBoost",
+            "categoria": "Geral",
+            "modalidade": "EAD",
+            "cargaHoraria": 0,
+            "descricao": "Assistente geral para dúvidas sobre treinamentos, recomendações e desenvolvimento profissional.",
+        }
+    else:
+        course_info = next(
+            (c for c in ALL_COURSES if c.get("cursoID") == request.curso_id), None
+        )
+        if not course_info:
+            raise HTTPException(status_code=404, detail=f"Curso {request.curso_id} não encontrado")
 
     # Busca informações do colaborador
     try:
@@ -617,7 +626,7 @@ def start_course_assistant_session(request: CourseAssistantStartRequest):
             cadastro = json.load(f)
 
         cargo = cadastro.get("CARGO_NOME", "Colaborador")
-        nivel = "Pleno"  # Placeholder - em produção viria da avaliação
+        nivel = "Pleno"
     except (FileNotFoundError, json.JSONDecodeError, KeyError) as e:
         logger.warning(f"Falha ao carregar dados cadastrais: {e}")
         cargo = "Colaborador"

@@ -58,9 +58,9 @@ export function FloatingTutorChat({
 
   if (!user) return null;
 
-  // Curso padrão se não tiver um específico aberto
-  const courseId = currentCourseId || 'C001';
-  const courseTitle = currentCourseTitle || 'Tutoria Geral';
+  // Se não tiver curso específico, usa modo geral
+  const courseId = currentCourseId || 'general';
+  const courseTitle = currentCourseTitle || 'Assistente TalentBoost';
 
   return (
     <>
