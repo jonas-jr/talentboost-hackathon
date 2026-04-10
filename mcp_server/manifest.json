@@ -5,7 +5,7 @@
   "author": "LG TalentBoost Team",
   "license": "Proprietary",
   "protocol": "mcp",
-  "transport": "stdio",
+  "transport": "sse",
   "capabilities": {
     "tools": true,
     "resources": false,
@@ -122,9 +122,10 @@
     }
   },
   "installation": {
-    "command": "python -m lg_ia_hub.app.modules.deep_agent.test_htn.mcp_server.talent_boost_server",
+    "command": "python mcp_server/talent_boost_server.py",
     "requirements": [
-      "mcp>=0.1.0"
+      "mcp>=1.0.0",
+      "starlette>=0.35.0"
     ]
   },
   "metadata": {

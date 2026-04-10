@@ -12,6 +12,7 @@ from typing import Any
 
 from mcp.server import Server
 from mcp.server.stdio import stdio_server
+from mcp.server.sse import SseServerTransport
 from mcp.types import (
     Tool,
     TextContent,
@@ -415,8 +416,8 @@ class TalentBoostMCPServer:
         name = name.lower().replace(" ", "_")
         return name
 
-    async def run(self):
-        """Inicia o servidor MCP."""
+    async def run_stdio(self):
+        """Inicia o servidor MCP via STDIO (para uso local/debug)."""
         async with stdio_server() as (read_stream, write_stream):
             await self.server.run(
                 read_stream,
@@ -424,24 +425,67 @@ class TalentBoostMCPServer:
                 self.server.create_initialization_options(),
             )
 
+    def create_sse_app(self):
+        """Cria app HTTP com transporte SSE para integração com LiGiaPro."""
+        from starlette.applications import Starlette
+        from starlette.routing import Route, Mount
+        from starlette.responses import JSONResponse
 
-async def main():
+        sse_transport = SseServerTransport("/messages/")
+
+        async def handle_sse(request):
+            async with sse_transport.connect_sse(
+                request.scope, request.receive, request._send
+            ) as streams:
+                await self.server.run(
+                    streams[0],
+                    streams[1],
+                    self.server.create_initialization_options(),
+                )
+
+        async def health(request):
+            return JSONResponse({
+                "status": "ok",
+                "server": "talent-boost-mcp",
+                "transport": "sse",
+                "tools_count": 6,
+            })
+
+        return Starlette(
+            routes=[
+                Route("/health", health),
+                Route("/sse", handle_sse),
+                Mount("/messages/", app=sse_transport.handle_post_message),
+            ],
+        )
+
+
+def main():
     """Entry point do servidor."""
     import os
+    import uvicorn
 
-    # Pega diretório de dados da env var ou usa padrão
+    logging.basicConfig(level=logging.INFO)
+
     data_dir = os.getenv(
         "TALENT_BOOST_DATA_DIR",
         str(Path(__file__).parent.parent),
     )
 
-    logger.info(f"Starting TalentBoost MCP Server with data dir: {data_dir}")
+    transport = os.getenv("MCP_TRANSPORT", "sse")
+    port = int(os.getenv("MCP_PORT", "8002"))
+
+    logger.info(f"Starting TalentBoost MCP Server (transport={transport}, data_dir={data_dir})")
 
     server = TalentBoostMCPServer(data_directory=data_dir)
-    await server.run()
+
+    if transport == "stdio":
+        import asyncio
+        asyncio.run(server.run_stdio())
+    else:
+        app = server.create_sse_app()
+        uvicorn.run(app, host="0.0.0.0", port=port)
 
 
 if __name__ == "__main__":
-    import asyncio
-    logging.basicConfig(level=logging.INFO)
-    asyncio.run(main())
+    main()
