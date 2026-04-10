@@ -237,13 +237,18 @@ CONTEXTO DO COLABORADOR:
 - Nome: {student.nome}
 - Cargo: {student.cargo}
 - Nível Profissional: {student.nivel}
+"""
+            if course.descricao:
+                prompt += f"\nDADOS DE RECOMENDAÇÃO DO COLABORADOR:\n{course.descricao}\n"
 
+            prompt += """
 DIRETRIZES:
-- Responda perguntas sobre desenvolvimento profissional, cursos disponíveis e competências
-- Se perguntarem sobre cursos específicos, recomende buscar na aba "Explorar Catálogo" ou "Meus Cursos"
+- Use os dados de recomendação acima para responder perguntas sobre cursos e desenvolvimento
+- Quando perguntarem sobre cursos, cite os cursos recomendados acima com nome, categoria e motivo
 - Se perguntarem sobre equipe ou gestão, explique que essas informações estão no "Dashboard do Gestor"
 - Seja útil, conciso e profissional
 - Use linguagem simples e direta
+- Não invente cursos que não estão na lista de recomendações
 """
         else:
             prompt = f"""Você é um tutor virtual especializado que auxilia alunos durante cursos online.

@@ -600,23 +600,6 @@ def start_course_assistant_session(request: CourseAssistantStartRequest):
         timestamp=datetime.now().isoformat(),
     )
 
-    # Busca informações do curso (modo geral se curso_id == "general")
-    if request.curso_id == "general":
-        course_info = {
-            "cursoID": "general",
-            "titulo": "Assistente TalentBoost",
-            "categoria": "Geral",
-            "modalidade": "EAD",
-            "cargaHoraria": 0,
-            "descricao": "Assistente geral para dúvidas sobre treinamentos, recomendações e desenvolvimento profissional.",
-        }
-    else:
-        course_info = next(
-            (c for c in ALL_COURSES if c.get("cursoID") == request.curso_id), None
-        )
-        if not course_info:
-            raise HTTPException(status_code=404, detail=f"Curso {request.curso_id} não encontrado")
-
     # Busca informações do colaborador
     try:
         normalized = normalize_name(request.employee_name)
@@ -632,6 +615,41 @@ def start_course_assistant_session(request: CourseAssistantStartRequest):
         cargo = "Colaborador"
         nivel = "Pleno"
 
+    # Busca informações do curso (modo geral se curso_id == "general")
+    if request.curso_id == "general":
+        # No modo geral, busca recomendacoes e gaps para injetar no contexto
+        descricao_geral = "Assistente geral de desenvolvimento profissional."
+        try:
+            avaliacao, cadastro_data, treinamentos = load_employee_data(request.employee_name)
+            gaps = gap_detector.detect_gaps(avaliacao)
+            profile = profile_builder.build_profile(cadastro_data, avaliacao, treinamentos, gaps)
+            recs = recommendation_engine.recommend(profile, top_n=5, exclude_completed=True)
+
+            gaps_text = ", ".join([g.competency_name for g in gaps]) if gaps else "Nenhum gap identificado"
+            recs_text = "\n".join([f"- {r.titulo} ({r.categoria}, {r.carga_horaria}h) — {r.match_reason}" for r in recs])
+
+            descricao_geral = (
+                f"Gaps de competência identificados: {gaps_text}\n\n"
+                f"Cursos recomendados para este colaborador:\n{recs_text}"
+            )
+        except Exception as e:
+            logger.warning(f"Falha ao carregar recomendações para modo geral: {e}")
+
+        course_info = {
+            "cursoID": "general",
+            "titulo": "Assistente TalentBoost",
+            "categoria": "Geral",
+            "modalidade": "EAD",
+            "cargaHoraria": 0,
+            "descricao": descricao_geral,
+        }
+    else:
+        course_info = next(
+            (c for c in ALL_COURSES if c.get("cursoID") == request.curso_id), None
+        )
+        if not course_info:
+            raise HTTPException(status_code=404, detail=f"Curso {request.curso_id} não encontrado")
+
     # Cria contextos
     course_context = CourseContext(
         curso_id=request.curso_id,
@@ -640,7 +658,7 @@ def start_course_assistant_session(request: CourseAssistantStartRequest):
         modalidade=course_info.get("modalidade", ""),
         carga_horaria=course_info.get("cargaHoraria", 0),
         descricao=course_info.get("descricao"),
-        nivel="Intermediário",  # Placeholder
+        nivel="Intermediário",
         objetivos=[
             "Desenvolver competências práticas",
             "Aplicar conhecimentos no dia a dia",
