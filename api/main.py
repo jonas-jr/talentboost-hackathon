@@ -132,7 +132,7 @@ course_assistant: CourseAssistant = None  # type: ignore[assignment]
 @app.on_event("startup")
 async def _init_course_assistant():
     global course_assistant
-    from llm_helper import create_llm_for_course_assistant
+    from api.llm_helper import create_llm_for_course_assistant
 
     _llm_provider = create_llm_for_course_assistant()
     course_assistant = CourseAssistant(llm_provider=_llm_provider)
