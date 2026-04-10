@@ -692,13 +692,21 @@ def ask_course_assistant(request: CourseAssistantQuestionRequest):
         timestamp=datetime.now().isoformat(),
     )
 
-    # Busca informações do curso
-    course_info = next(
-        (c for c in ALL_COURSES if c.get("cursoID") == request.curso_id), None
-    )
-
-    if not course_info:
-        raise HTTPException(status_code=404, detail=f"Curso {request.curso_id} não encontrado")
+    # Busca informações do curso (modo geral se curso_id == "general")
+    if request.curso_id == "general":
+        course_info = {
+            "cursoID": "general",
+            "titulo": "Assistente TalentBoost",
+            "categoria": "Geral",
+            "modalidade": "EAD",
+            "cargaHoraria": 0,
+        }
+    else:
+        course_info = next(
+            (c for c in ALL_COURSES if c.get("cursoID") == request.curso_id), None
+        )
+        if not course_info:
+            raise HTTPException(status_code=404, detail=f"Curso {request.curso_id} não encontrado")
 
     # Busca informações do colaborador
     try:
@@ -780,7 +788,17 @@ def get_course_assistant_history(session_id: str):
 @app.post("/api/course-assistant/suggestions")
 def get_course_assistant_suggestions(request: CourseAssistantStartRequest):
     """Sugere próximos passos baseado no progresso do aluno."""
-    # Busca informações do curso
+    # Busca informações do curso (modo geral se curso_id == "general")
+    if request.curso_id == "general":
+        return {
+            "suggestions": [
+                "Quais cursos são recomendados para mim?",
+                "Como funciona o sistema de recomendação?",
+                "Quais competências devo desenvolver?",
+                "Como acompanho meu progresso?",
+            ]
+        }
+
     course_info = next(
         (c for c in ALL_COURSES if c.get("cursoID") == request.curso_id), None
     )

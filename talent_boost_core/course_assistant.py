@@ -227,7 +227,26 @@ class CourseAssistant:
         self, course: CourseContext, student: StudentContext
     ) -> str:
         """Constrói o system prompt personalizado."""
-        prompt = f"""Você é um tutor virtual especializado que auxilia alunos durante cursos online.
+        is_general = course.curso_id == "general"
+
+        if is_general:
+            prompt = f"""Você é um assistente virtual de desenvolvimento profissional da plataforma TalentBoost.
+Você ajuda colaboradores com dúvidas sobre treinamentos, recomendações de cursos, desenvolvimento de carreira e competências profissionais.
+
+CONTEXTO DO COLABORADOR:
+- Nome: {student.nome}
+- Cargo: {student.cargo}
+- Nível Profissional: {student.nivel}
+
+DIRETRIZES:
+- Responda perguntas sobre desenvolvimento profissional, cursos disponíveis e competências
+- Se perguntarem sobre cursos específicos, recomende buscar na aba "Explorar Catálogo" ou "Meus Cursos"
+- Se perguntarem sobre equipe ou gestão, explique que essas informações estão no "Dashboard do Gestor"
+- Seja útil, conciso e profissional
+- Use linguagem simples e direta
+"""
+        else:
+            prompt = f"""Você é um tutor virtual especializado que auxilia alunos durante cursos online.
 
 CONTEXTO DO CURSO:
 - Título: {course.titulo}
@@ -277,24 +296,38 @@ Lembre-se: seu objetivo é fazer o aluno ENTENDER, não apenas memorizar.
         self, course: CourseContext, student: StudentContext
     ) -> str:
         """Gera mensagem de boas-vindas personalizada."""
+        is_general = course.curso_id == "general"
+
+        if is_general:
+            return f"""Olá, {student.nome}! 👋
+
+Sou o assistente virtual do **TalentBoost**.
+
+Posso te ajudar com:
+• Dúvidas sobre treinamentos e cursos disponíveis
+• Recomendações de desenvolvimento profissional
+• Informações sobre competências e carreira
+• Orientações sobre a plataforma
+
+Como posso te ajudar hoje?
+"""
         return f"""Olá, {student.nome}! 👋
 
-Sou seu assistente virtual para o curso **{course.titulo}**.
+Sou seu tutor virtual para o curso **{course.titulo}**.
 
-Vejo que você é {student.cargo} com nível {student.nivel} - ótimo! Vou adaptar minhas explicações ao seu contexto profissional.
+Vejo que você é {student.cargo} com nível {student.nivel} - vou adaptar minhas explicações ao seu contexto profissional.
 
-Você já está com {student.progresso_curso:.0f}% do curso concluído. Continue assim!
+Você está com {student.progresso_curso:.0f}% do curso concluído.
 
-**Como posso te ajudar hoje?**
+**Como posso te ajudar?**
 
 Você pode me perguntar sobre:
 • Conceitos e termos do curso
 • Exemplos práticos de aplicação
 • Dúvidas sobre exercícios
 • Sugestões de materiais complementares
-• Qualquer coisa relacionada ao conteúdo!
 
-Estou aqui para garantir que você aproveite ao máximo este curso. 🚀
+Estou aqui para te ajudar! 🚀
 """
 
     def _generate_llm_response(
