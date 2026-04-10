@@ -143,6 +143,34 @@ async def _init_course_assistant():
         logger.info("course_assistant_initialized", mode="simulated")
 
 
+# --- MCP Server via SSE (integração com LiGiaPro) ---
+try:
+    from mcp.server.sse import SseServerTransport
+    from mcp_server.talent_boost_server import TalentBoostMCPServer
+    from starlette.routing import Route, Mount
+
+    _mcp_data_dir = str(Path(__file__).parent.parent)
+    _mcp_server_instance = TalentBoostMCPServer(data_directory=_mcp_data_dir)
+    _sse_transport = SseServerTransport("/mcp/messages/")
+
+    async def _handle_sse(request):
+        async with _sse_transport.connect_sse(
+            request.scope, request.receive, request._send
+        ) as streams:
+            await _mcp_server_instance.server.run(
+                streams[0],
+                streams[1],
+                _mcp_server_instance.server.create_initialization_options(),
+            )
+
+    app.mount("/mcp/messages", _sse_transport.handle_post_message)
+    app.add_api_route("/mcp/sse", _handle_sse, methods=["GET"])
+
+    logger.info("mcp_sse_mounted", endpoint="/mcp/sse")
+except ImportError as e:
+    logger.warning(f"MCP SSE not available (missing dependency): {e}")
+
+
 def get_llm_status() -> str:
     if course_assistant is None:
         return "starting"
